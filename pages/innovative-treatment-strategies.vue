@@ -197,7 +197,7 @@
     <v-card class="pa-10 mb-10">
       <v-row>
         <v-col cols="12">
-          <h2>Staffing Strategies FAQ</h2>
+          <h2>Innovative Treatment Strategies FAQ</h2>
         </v-col>
       </v-row>
 
@@ -205,56 +205,179 @@
         <v-col cols="6">
           <ul>
             <li>
-              <strong> Title </strong>
+              <strong> What is ITS? </strong>
               <ul>
-                <li>Answer</li>
+                <li>
+                  ITS stands for Innovative Treatment Supplies. ITS can provide
+                  your therapy department with needed equipment to make treating
+                  patients easier.
+                </li>
               </ul>
             </li>
             <li>
-              <strong> Title </strong>
+              <strong> What equipment can ITS provide? </strong>
               <ul>
-                <li>Answer</li>
+                <li>
+                  ITS can order any therapy equipment a department would need,
+                  but the MR Cube is their top seller. ITS is the exclusive
+                  distributor for the MR Cube.
+                </li>
               </ul>
             </li>
             <li>
-              <strong> Title </strong>
+              <strong> What is the MR Cube? </strong>
               <ul>
-                <li>Answer</li>
+                <li>
+                  It is a portable, functional training and testing device that
+                  therapists can use to not only eliminate monotony of a therapy
+                  session, but also collect objective data on a patient’s
+                  progress.
+                </li>
               </ul>
             </li>
             <li>
-              <strong> Title </strong>
+              <strong>
+                Why should our facility purchase a MR Cube for our therapy gym?
+              </strong>
               <ul>
-                <li>Answer</li>
+                <li>
+                  MR Cube takes the guesswork out of evaluating a patient. With
+                  the objective data collected straight to a computer, the
+                  patient’s baseline is collected and progress can be obtained
+                  with each use.
+                </li>
               </ul>
             </li>
             <li>
-              <strong> Title </strong>
+              <strong> How does the MR Cube work? </strong>
               <ul>
-                <li>Answer</li>
+                <li>
+                  The therapist connects the MR Cube to the patient via a tether
+                  and has the patient perform “games” on a computer screen.
+                  While the patient is engaged in a fun therapy session, the
+                  portable dynamo reads the data collected from the patient and
+                  downloads it to a computer.
+                </li>
               </ul>
             </li>
             <li>
-              <strong> Title </strong>
+              <strong>
+                How is the MR Cube better than the old tried and true methods
+                used in the average therapy session?
+              </strong>
               <ul>
-                <li>Answer</li>
+                <li>
+                  The data collected from the MR Cube provides the therapist
+                  with objective results instantly while the patient enjoys
+                  his/her therapy session. With the exercises creatively
+                  disguised as a video game, the patient’s competitive nature is
+                  sparked and each therapy session becomes a challenge to
+                  increase his/her area of weakness by trying to beat the
+                  previous score.
+                </li>
               </ul>
             </li>
+           
           </ul>
         </v-col>
 
         <v-col cols="6">
           <ul>
-            <li>
-              <strong> Title </strong>
+             <li>
+              <strong>
+                How can our therapy department see the MR Cube in action?
+              </strong>
               <ul>
-                <li>Answer</li>
+                <li>
+                  Contact Jamey Kleva at
+                  <a href="mailto: jkleva@innovativetreatment.net">
+                    jkleva@innovativetreatment.net
+                  </a>
+                  and she will schedule a demonstration. Our therapists will set
+                  an onsite visit where your therapists and patients can learn
+                  about the MR Cube and receive hands on training.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>
+                How will we know if more than one MR Cube is needed for our
+                department?
+              </strong>
+              <ul>
+                <li>
+                  Once your patients experience their exercises on the MR Cube,
+                  they will be fighting over MR Cube time.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong> Can the MR Cube be rented to our facility? </strong>
+              <ul>
+                <li>
+                  Yes, contact
+                  <a href="mailto: jkleva@innovativetreatment.net">
+                    Jamey Kleva
+                  </a>
+                  for details on a rental agreement.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>
+                Is the software updated and are the updates included in the
+                price?
+              </strong>
+              <ul>
+                <li>
+                  Yes, software upgrades are included as they become available
+                  for two years. After two years, new updates will be provided
+                  for a nominal fee.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong>
+                With staff turnover, how can we avoid a new staff leaving the MR
+                Cube in the corner and not using it to its full potential?
+              </strong>
+              <ul>
+                <li>
+                  Our therapists can set up a retraining session to make sure
+                  the MR Cube is being used to its full potential.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <strong> Will the MR Cube pay for itself? </strong>
+              <ul>
+                <li>
+                  Yes, by adding additional HCPCS treatment codes, Medicare will
+                  reimburse for the MR Cube treatments.
+                </li>
               </ul>
             </li>
           </ul>
         </v-col>
       </v-row>
     </v-card>
+
+    <v-card elevation="0" class="pa-10 mb-10" color="rgb(250,250,250)">
+    <v-row>
+      <v-col cols="4">
+       <h2 class="text-h2 mb-5">Call Us</h2>
+       <p class="text-body-1">(317) 887-1600</p>
+       <p class="text-body-1">Toll Free: 1 (877) 60-REHAB</p>
+      </v-col>
+      <v-col cols="4">
+       <h2 class="text-h2 mb-5">Email Us</h2>
+        <p class="text-body-1">
+        <a color="primary" href="mailto: info@innovativetreatment.net">info@innovativetreatment.net</a>
+       </p>
+      </v-col>
+      <v-spacer/>
+    </v-row>
+  </v-card>
   </div>
 </template>
 
