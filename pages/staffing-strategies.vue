@@ -237,7 +237,7 @@
         <v-col cols="2" class="mr-4">
           <v-img
             max-width="200px"
-            :src="require('@/assets/images/lauren.png')"
+            :src="require('@/assets/images/staff/lauren.png')"
           />
         </v-col>
         <v-col cols="4">
