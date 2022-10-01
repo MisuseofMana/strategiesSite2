@@ -1,76 +1,13 @@
 <template>
   <div>
-    <v-row class="mb-10">
-      <v-col
-        cols="12"
-        align-self="center"
-        justify-self="center"
-        class="d-flex flex-column align-center"
-      >
-        <v-img max-width="50%" :src="require('@/assets/images/rehab.jpg')" />
-        <h1 class="text-h1">
-          A Trustworthy, Reliable Provider of Therapy Services Since 2007
-        </h1>
-      </v-col>
-    </v-row>
-
-    <v-card class="pa-10 mb-10">
-      <v-row>
-        <v-col cols="8">
-          <h2 class="text-h2 mb-3">
-            What is Rehab Strategies and what can we do for you?
-          </h2>
-          <p class="text-body-1">
-            After working for similar rehabilitation companies, Ron Cram and
-            Jamey Kleva launched Rehab Strategies in 2006. Because Ron and Jamey
-            are therapists themselves with over 50 years of combined clinical
-            experience in the rehabilitation industry, they will work
-            hand-in-hand with your company on how best to construct the therapy
-            department. If management or consulting is what your facility needs,
-            Rehab Strategies can also provide expertise in those areas.
-          </p>
-          <p class="text-body-1">
-            Rehab Strategies will alleviate stress by internalizing decisions
-            and solving problems for any provider housing a rehab department.
-            Ron and Jamey will work in conjunction with the facility to build
-            therapy teams that are highly motivated, efficient and produce
-            cost-effective outcomes. Their model isn’t just for long term care
-            facilities; it can be tailored to fit the needs of hospitals,
-            outpatient centers, skilled nursing facilities, assisted and
-            independent living centers.
-          </p>
-          <p class="text-body-1">
-            Is your facility struggling with census and losing patients to home
-            health? Do your patients need a spark to get them on the road to
-            recovery?
-          </p>
-          <p class="text-body-1">
-            Rehab Strategies can help with these troubling statistics. We will
-            provide your facility with a full-time physical, occupational and
-            speech staff who will work on site daily. The staff will engage the
-            residents by creating a cohesive therapy department that provides
-            exemplary patient care. Patients become familiar with the therapists
-            and love to be a part of the therapy family while they work to
-            recover strength and health. Many residents enjoy the personal
-            attention and comradery so much that they continue with their
-            therapy services through private pay.
-          </p>
-          <h2 class="text-h2 mb-3 mt-10">A Partnership Built Upon Trust</h2>
-          <p class="text-body-1">
-            One of the newest services Rehab Strategies provides is a Wellness
-            Program for seniors focusing on health and wellbeing. Residents can
-            participate in Thai chi, Pilates and yoga as well as a wide variety
-            of aerobic classes, and our certified athletic trainers specialize
-            in Parkinson’s classes like The Climb, Rock Steady Boxing, Lee
-            Silverman Voice Training and the Loud Program.
-          </p>
-          <p class="text-body-1">
-            But, the number one reason to choose to work with Rehab Strategies
-            is that they will guarantee all facilities a profit on
-            rehabilitation therapy services.
-          </p>
-        </v-col>
-        <v-col cols="4" class="d-flex flex-column align-center">
+    <PageHeading logo="rehab.jpg" tagline="A Trustworthy, Reliable Provider of Therapy Services Since 2007"/>
+    
+    <CardWithSlot>
+      <template #left>
+        <HeadingAndTextBlock heading="What is Rehab Strategies and what can we do for you?" uniqueId="rehab" :paragraphs="rehab.intro"/>
+      </template>
+      <template #right>
+        <div class="d-flex flex-column justify-center align-center">
           <h2 class="text-h2 mb-3">The Three Therapies</h2>
           <p class="text-body-1s">Click a therapy below for more info.</p>
           <v-btn
@@ -174,34 +111,21 @@
               </v-btn>
             </a>
           </div>
-        </v-col>
-      </v-row>
-    </v-card>
+        </div>
+      </template>
+    </CardWithSlot>
 
-    <v-card class="pa-10 mb-10">
-      <v-row align="center" justify="center">
-        <v-col cols="6">
-          <v-img :src="require('@/assets/images/placeholder.jpg')" />
-        </v-col>
-        <v-spacer />
-        <v-col cols="5">
-          <h2 class="text-h2 mb-5">Work for Rehab Strategies</h2>
-          <h3 class="text-h3 mb-4">We offer:</h3>
 
-          <ul class="mb-10 text-body-1">
-            <li>Clinical Freedom</li>
-            <li>Professional Growth</li>
-            <li>Annual CEU Allotment</li>
-            <li>Generous PTO Accrual</li>
-            <li>Medical, Dental, Vision, Life and Disability Insurance</li>
-          </ul>
-
-          <v-btn to="/rehab-form" class="white--text" color="primary">
-            Apply To Rehab Strategies Online
-          </v-btn>
-        </v-col>
-      </v-row>
-    </v-card>
+    <CardWithSlot leftCols="6" rightCols="5">
+      <template #left>
+          <div class="d-flex flex-column align-center justify-center">
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZkaiy4_YNZGOCkMfpX6gbKtI6MygBkozwLKvrJZ2bWSGskA/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+      </template>
+      <template #right>
+        <BulletedList headingOne="Work for Rehab Strategies" headingTwo="We offer:" :listItems="rehab.offerList"/>
+      </template>
+    </CardWithSlot>
 
     <v-card class="pa-10 mb-10">
       <v-row align="center" justify="center">
@@ -435,9 +359,24 @@
 </template>
 
 <script>
+import {rehab} from './rehab-strategies.data'
+
+import PageHeading from '@/components/atoms/PageHeading.vue'
+import CardWithSlot from '@/components/atoms/CardWithSlot.vue'
+import HeadingAndTextBlock from '@/components/atoms/HeadingAndTextBlock.vue'
+import BulletedList from '@/components/atoms/BulletedList.vue'
+
 export default {
+  name: "RehabStrategies",
+  components: {
+    PageHeading,
+    CardWithSlot,
+    HeadingAndTextBlock,
+    BulletedList
+  },
   data() {
     return {
+      rehab,
       physicalOverlay: false,
       occupationalOverlay: false,
       speechOverlay: false,

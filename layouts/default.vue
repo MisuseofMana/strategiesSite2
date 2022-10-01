@@ -40,7 +40,7 @@
           color="primary"
           @click="toggleNavigation"
         >
-          <v-icon class="mr-2">mdi-menu</v-icon>
+          <v-icon class="mr-2">{{menuIcon}}</v-icon>
           <span v-if="navigation"> CLOSE MENU </span>
           <span v-if="!navigation"> OPEN MENU </span>
         </v-btn>
@@ -64,15 +64,9 @@ export default {
           to: '/',
         },
         {
-          icon: 'mdi-handshake-outline',
+          icon: 'mdi-arm-flex',
           title: 'Rehab Strategies',
           to: '/rehab-strategies',
-        },
-        {
-          icon: 'mdi-handshake-outline',
-          title: 'Work for Rehab Strategies',
-          to: '/work-for-rehab-strategies',
-          subItem: true,
         },
         {
           icon: 'mdi-account-group',
@@ -81,14 +75,28 @@ export default {
         },
         {
           icon: 'mdi-bottle-tonic-plus-outline',
-          title: 'Care Strategies',
-          to: '/care-strategies',
+          title: 'Brookside Care Strategies',
+          to: '/brookside-care-strategies',
         },
         {
-          icon: 'mdi-bottle-tonic-plus-outline',
-          title: 'Work for Care Strategies',
-          to: '/work-for-care-strategies',
-          subItem: true
+          icon: 'mdi-leaf',
+          title: 'GentleCare Strategies',
+          to: '/gentle-care-strategies',
+        },
+        {
+          icon: 'mdi-nature-people',
+          title: 'Sycamore Care Strategies',
+          to: '/sycamore-care-strategies',
+        },
+        {
+          icon: 'mdi-head-heart',
+          title: 'Poplar Care Strategies',
+          to: '/poplar-care-strategies',
+        },
+        {
+          icon: 'mdi-bird',
+          title: 'Cardinal Care Strategies',
+          to: '/cardinal-care-strategies',
         },
         {
           icon: 'mdi-desktop-classic',
@@ -108,6 +116,16 @@ export default {
       this.navigation = !this.navigation
     },
   },
+  computed: {
+    menuIcon() {
+      if(this.navigation === false) {
+        return 'mdi-menu'
+      }
+      else {
+        return 'mdi-close-thick'
+      }
+    }
+  }
 }
 </script>
 
