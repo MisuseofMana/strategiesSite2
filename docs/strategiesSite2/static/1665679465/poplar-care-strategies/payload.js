@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/poplar-care-strategies", {data:[{}],fetch:{},mutations:void 0});

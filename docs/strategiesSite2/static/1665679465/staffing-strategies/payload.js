@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/staffing-strategies", {data:[{}],fetch:{},mutations:void 0});

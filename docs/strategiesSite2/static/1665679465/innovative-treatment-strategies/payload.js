@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/innovative-treatment-strategies", {data:[{}],fetch:{},mutations:void 0});

@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/gentle-care-strategies", {data:[{}],fetch:{},mutations:void 0});
