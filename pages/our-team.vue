@@ -28,19 +28,19 @@
 <script>
 import {ron, jamey, jeff, lisa, cathy, lauren, } from './our-team.data.js'
 import StaffCard from '@/components/atoms/StaffCard.vue'
-    export default {
-        components: {
-            StaffCard
-        },
-        data() {
-            return {
-                ron,
-                jamey,
-                jeff,
-                lisa,
-                cathy,
-                lauren,
-            }
-        }
+  export default {
+    components: {
+      StaffCard
+    },
+    data() {
+      return {
+        ron,
+        jamey,
+        jeff,
+        lisa,
+        cathy,
+        lauren,
+      }
     }
+  }
 </script>
