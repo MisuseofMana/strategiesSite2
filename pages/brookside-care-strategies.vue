@@ -29,7 +29,7 @@
         <v-col cols="6">
         <v-img
           class="rounded-xl"
-          :src="require('@/assets/images/temp.jpg')"
+          :src="require('@/assets/images/temp-photo.jpg')"
         />
         </v-col>
       </v-row>
@@ -40,7 +40,7 @@
         <v-col cols="6">
         <v-img
           class="rounded-xl"
-          :src="require('@/assets/images/temp.jpg')"
+          :src="require('@/assets/images/temp-photo.jpg')"
         />
         </v-col>
         <v-col cols="5">

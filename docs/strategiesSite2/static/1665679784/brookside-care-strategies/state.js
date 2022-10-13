@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a){return {staticAssetsBase:"\u002FstrategiesSite2\u002FstrategiesSite2\u002Fstatic\u002F1665679784",layout:"default",error:a,serverRendered:true,routePath:"\u002Fbrookside-care-strategies",config:{_app:{basePath:"\u002FstrategiesSite2\u002F",assetsPath:"\u002FstrategiesSite2\u002FstrategiesSite2\u002F",cdnURL:a}}}}(null));
