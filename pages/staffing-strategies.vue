@@ -28,7 +28,7 @@
           <h2 class="text-h2 mb-3">We hire, we work, we share our staff.</h2>
           <v-img
             :src="require('@/assets/images/placeholder.jpg')"
-            class="mb-6"
+            class="mb-6 rounded-xl"
           />
         </v-col>
         <v-spacer />

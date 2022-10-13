@@ -13,7 +13,7 @@
       </v-col>
       <v-spacer/>
       <v-col cols="6" >
-        <v-img :src="require(`@/assets/images/${contents.heroImage}`)"/>
+        <v-img class="rounded-xl" :src="require(`@/assets/images/${contents.heroImage}`)"/>
       </v-col>
     </v-row>
   </v-card>

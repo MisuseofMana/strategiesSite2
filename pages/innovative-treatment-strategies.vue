@@ -105,7 +105,7 @@
         </v-col>
         <v-spacer />
         <v-col cols="5" class="d-flex flex-column">
-          <v-img :src="require('@/assets/images/placeholder.jpg')" />
+          <v-img class="rounded-xl" :src="require('@/assets/images/placeholder.jpg')" />
         </v-col>
       </v-row>
     </v-card>

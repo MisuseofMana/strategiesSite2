@@ -28,6 +28,7 @@
         </v-col>
         <v-col cols="6">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/poplar-entrance.jpg')"
         />
         </v-col>
@@ -38,6 +39,7 @@
       <v-row class="d-flex align-center justify-center">
         <v-col cols="6">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/temp-photo.jpg')"
         />
         </v-col>
@@ -64,6 +66,7 @@
         </v-col>
         <v-col cols="6">
         <v-img
+          class="rounded-xl"    
           :src="require('@/assets/images/temp-photo.jpg')"
         />
         </v-col>
@@ -74,7 +77,7 @@
       <template #left>
         <v-img
           max-width="200px"
-          :src="require('@/assets/images/staff/natalie.png')"
+          :src="require('@/assets/images/staff/derrek.png')"
           class="mb-4"
         />
       </template>

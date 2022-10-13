@@ -4,15 +4,15 @@
       v-model="navigation"
       color="rgb(238,238,238)"
       app
-      width="25rem"
+      width="30rem"
       class="px-10 pt-10"
     >
       <v-img
         :src="require('@/assets/images/strategies-logo.png')"
         max-height="150"
-        class="mb-5"
+        class="mb-5 mx-2"
       />
-      <v-list>
+      <v-list class="px-2">
         <v-list-item
           v-for="(item, i) in items"
           :key="i"
@@ -111,11 +111,6 @@ export default {
       ],
     }
   },
-  methods: {
-    toggleNavigation() {
-      this.navigation = !this.navigation
-    },
-  },
   computed: {
     menuIcon() {
       if(this.navigation === false) {
@@ -125,7 +120,13 @@ export default {
         return 'mdi-close-thick'
       }
     }
-  }
+  },
+  methods: {
+    toggleNavigation() {
+      this.navigation = !this.navigation
+    },
+  },
+  
 }
 </script>
 

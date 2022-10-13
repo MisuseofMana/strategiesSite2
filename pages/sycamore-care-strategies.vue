@@ -28,6 +28,7 @@
         </v-col>
         <v-col cols="6">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/sycamore-sign.jpg')"
         />
         </v-col>
@@ -38,14 +39,17 @@
       <v-row class="d-flex align-center justify-center">
         <v-col cols="6">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/sycamore-porch.jpg')"
         />
         </v-col>
         <v-col cols="5">
             <h2 class="text-h2 mb-3">We Offer Care and Commitment.</h2>
           <p class="text-body-1">
-            You see immediately how much we care about our residents, families, and community. We offer a wide spectrum of services, from specialized skilled care to assistance with minor activities of daily living. Whether you come for short-term rehabilitative care, respite care, adult day care, or choose to make
-Sycamore Care Strategies your home, you will find the same commitment. Regardless of your needs, you can be assured that Sycamore Care Strategies is here to provide nurturing care. Our residents enjoy an active life full of activities both independent and group. Many enjoy gathering on the porch to visit with each other.
+            You see immediately how much we care about our residents, families, and community. We offer a wide spectrum of services, from specialized skilled care to assistance with minor activities of daily living. Whether you come for short-term rehabilitative care, respite care, adult day care, or choose to make Sycamore Care Strategies your home, you will find the same commitment.
+          </p>
+          <p class="text-body-1">
+            Regardless of your needs, you can be assured that Sycamore Care Strategies is here to provide nurturing care. Our residents enjoy an active life full of activities both independent and group. Many enjoy gathering on the porch to visit with each other.
           </p>
         </v-col>
       </v-row>
@@ -67,6 +71,7 @@ Sycamore Care Strategies your home, you will find the same commitment. Regardles
         <v-spacer/>
         <v-col cols="5">
          <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/sycamore-lake.jpg')"
         />  
         </v-col>
@@ -74,6 +79,7 @@ Sycamore Care Strategies your home, you will find the same commitment. Regardles
 
         <v-col cols="5">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/sycamore-building.jpg')"
         />
         </v-col>

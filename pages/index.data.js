@@ -64,7 +64,7 @@ export const rehabStrategies = {
 }
 
 export const staffingStrategies = {
-    logoImage: `staffing.png`,
+    logoImage: `temp.jpg`,
     logoImageAltText: `The Staffing Strategies logo, a hollow golden circle surrounded by eight smaller dots.`,
     tagline: `What is Staffing Strategies and what can we do for you?`,
     copy: [

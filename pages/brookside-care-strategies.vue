@@ -28,6 +28,7 @@
         </v-col>
         <v-col cols="6">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/temp.jpg')"
         />
         </v-col>
@@ -38,6 +39,7 @@
       <v-row class="d-flex align-center justify-center">
         <v-col cols="6">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/temp.jpg')"
         />
         </v-col>

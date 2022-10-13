@@ -19,16 +19,17 @@
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
         <v-col cols="5">
+          <p class="text-body-1 mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
           <h2 class="text-h2">
             Five Star Care, Friendly Smiles
           </h2>
-          <p class="text-body-1 mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
           <p class="text-body-1">
-             Our interactive care stems for our desire to offer 5-Star care with unwavering desire for serving our community and their specific health needs. We believe that each one of our customers deserve commitment to an individualized program of care.
+             Our interactive care stems from our desire to offer unique 5-Star service to our community and their specific health needs. We believe that each one of our customers deserve commitment to an individualized program of care.
           </p>
         </v-col>
         <v-col cols="6">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/gentlecare-sign.jpg')"
         />
         </v-col>
@@ -39,6 +40,7 @@
       <v-row class="d-flex align-center justify-center">
         <v-col cols="6">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/gentlecare-building.jpg')"
         />
         </v-col>
@@ -65,6 +67,7 @@
         </v-col>
         <v-col cols="6">
         <v-img
+          class="rounded-xl"
           :src="require('@/assets/images/gentlecare-inside.jpg')"
         />
         </v-col>
