@@ -58,14 +58,14 @@
       <template #left>
         <v-img
           max-width="200px"
-          :src="require('@/assets/images/staff/natalie.png')"
+          :src="require('@/assets/images/staff/susan.png')"
           class="mb-4"
         />
       </template>
       <template #middle>
         <h3 class="text-h3 mb-3">Contact our Building Administrator</h3>
-        <h4 class="text-h4 mb-2">Natalie Walker</h4>
-        <EmailLink email="nwalker@thestrategies.net"/>
+        <h4 class="text-h4 mb-2">Susan Sluder</h4>
+        <EmailLink email="ssluder@thestrategies.net"/>
       </template>
       <template #right>
           <h3 class="text-h3 mb-3">Visit Us</h3>

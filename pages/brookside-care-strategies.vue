@@ -120,15 +120,18 @@
 
 
     <Footer>    
-    <template #right>
-        <h3 class="text-h3">Contact Us</h3>
-        <h4 class="text-h4">Phone: (765) 289-1915</h4>
-        <h4 class="text-h4">Toll Free: 1 (877) 60-REHAB</h4>
-    </template>
     <template #left>
         <h3 class="text-h3">Find Us</h3>
         <h4 class="text-h4">505 N. Gavin St</h4>
         <h4 class="text-h4">Muncie, IN 47303</h4>
+    </template>
+    <template #right>
+      <h3 class="text-h3">Contact Us</h3>
+      <h4 class="text-h4">Phone: (765) 289-1915</h4>
+      <h4 class="text-h4 mb-3">Toll Free: 1 (877) 60-REHAB</h4>
+      <h4 class="text-h5">Derrek Keith</h4>
+      <EmailLink email="dkeith@brooksidecs.net"/>
+
     </template>
     </Footer>
   </div>
@@ -136,10 +139,12 @@
 
 <script>
 import Footer from '@/components/atoms/Footer.vue'
+import EmailLink from '@/components/atoms/EmailLink.vue'
 
 export default {
   components: {
-    Footer
+    Footer,
+    EmailLink
   }
 }
 </script>

@@ -83,8 +83,8 @@
       </template>
       <template #middle>
         <h3 class="text-h3 mb-3">Contact our Building Administrator</h3>
-        <h4 class="text-h4 mb-2">Derrek Keith</h4>
-        <EmailLink mock email="I NEED DERREK'S EMAIL"/>
+        <h4 class="text-h4">Marilyn Alberson</h4>
+        <EmailLink email="malberson@cardinalcarecs.net"/>
       </template>
       <template #right>
           <h3 class="text-h3 mb-3">Visit Us</h3>
