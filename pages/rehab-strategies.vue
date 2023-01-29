@@ -1,8 +1,8 @@
 <template>
   <div>
-    <PageHeading logo="rehab.jpg" tagline="A Trustworthy, Reliable Provider of Therapy Services Since 2007"/>
+    <PageHeading logo="rehab.jpg" tagline="A Trustworthy, Reliable Provider of Therapy Services Since 2007" altText="Rehab Strategies Logo"/>
     
-    <CardWithSlot>
+    <CardWithSlot leftCols="7" rightCols="5">
       <template #left>
         <HeadingAndTextBlock heading="What is Rehab Strategies and what can we do for you?" uniqueId="rehab" :paragraphs="rehab.intro"/>
       </template>
@@ -115,34 +115,29 @@
       </template>
     </CardWithSlot>
 
-
-    <CardWithSlot leftCols="6" rightCols="5">
+    <CardWithSlot leftCols="6" rightCols="6">
       <template #left>
-          <div class="d-flex flex-column align-center justify-center">
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZkaiy4_YNZGOCkMfpX6gbKtI6MygBkozwLKvrJZ2bWSGskA/viewform?embedded=true" width="100%" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</div>
+      <div>
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZkaiy4_YNZGOCkMfpX6gbKtI6MygBkozwLKvrJZ2bWSGskA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      </div>
       </template>
       <template #right>
         <BulletedList headingOne="Work for Rehab Strategies" headingTwo="We offer:" :listItems="rehab.offerList"/>
       </template>
     </CardWithSlot>
 
-    <v-card class="pa-10 mb-10">
-      <v-row align="center" justify="center">
-        <v-col cols="12">
-          <h2 class="text-h2 mb-5">Partner with Rehab Strategies</h2>
-          <p class="text-body-1">
-            Want to learn more? Email us now via info@rehabstrategies.net or
-            call our toll free line: 1(877)60-REHAB. We have a unique pay
-            structure that gives the therapist autonomy and makes them an active
-            partner in their own productivity.
-          </p>
-        </v-col>
-      </v-row>
-
-      <v-row>
-        <v-col cols="6">
-          <h2 class="text-h2 mb-5">Accountability and Performance</h2>
+    <CardWithSlot leftCols="6" rightCols="6">
+      <template #headingh>
+        <h2 class="text-2 mb-5">Partner with Rehab Strategies</h2>
+        <p class="text-body-1">
+          Want to learn more? Email us now via info@rehabstrategies.net or
+          call our toll free line: 1(877)60-REHAB. We have a unique pay
+          structure that gives the therapist autonomy and makes them an active
+          partner in their own productivity.
+        </p>
+      </template>
+      <template #left>
+        <h2 class="text-h2 mb-5">Accountability and Performance</h2>
           <ul class="text-body-1">
             <li>
               Higher Standards – Highly ethical clinical practice so you can
@@ -158,9 +153,22 @@
             </li>
             <li>Medicare Part B Provider</li>
           </ul>
-        </v-col>
-        <v-col cols="6">
-          <h2 class="text-h2 mb-5">Technology</h2>
+
+          <h2 class="text-h2 mb-5 mt-8">Consultation Services</h2>
+          <p class="text-body-1">
+            Rehab Strategies offers up a comprehensive consultation service
+            package for facilities that wish to setup and run their own Rehab
+            department. We provide guidance thru the following phases:
+          </p>
+          <ul class="text-body-1">
+            <li>Management Systems and Tools</li>
+            <li>Efficient Staffing Models</li>
+            <li>Philosophy/Culture Training</li>
+            <li>Delivery of Care Training</li>
+          </ul>
+      </template>
+      <template #right>
+        <h2 class="text-h2 mb-5">Technology</h2>
           <ul class="text-body-1">
             <li>CASAMBA - Therapy Software – Practice Management Software</li>
             <li>
@@ -177,45 +185,26 @@
               provided to the facility.
             </li>
           </ul>
-        </v-col>
-      </v-row>
 
-      <v-row>
-        <v-col cols="6">
-          <h2 class="text-h2 mb-5">Consultation Services</h2>
-          <p class="text-body-1">
-            Rehab Strategies offers up a comprehensive consultation service
-            package for facilities that wish to setup and run their own Rehab
-            department. We provide guidance thru the following phases:
-          </p>
-          <ul class="text-body-1">
-            <li>Management Systems and Tools</li>
-            <li>Efficient Staffing Models</li>
-            <li>Philosophy/Culture Training</li>
-            <li>Delivery of Care Training</li>
-          </ul>
-        </v-col>
-        <v-col cols="6">
-          <h2 class="text-h2 mb-5">Clinical Programs</h2>
+           <h2 class="text-h2 mb-5 mt-8">Clinical Programs</h2>
           <ul class="text-body-1">
             <li>Rock Steady</li>
             <li>The Climb</li>
             <li>Wellness Direction</li>
           </ul>
-        </v-col>
-      </v-row>
-    </v-card>
+      </template>
+    </CardWithSlot>
 
     <v-card class="pa-10 mb-10">
       <v-row>
-        <v-col cols="12">
+        <v-col>
           <h2>Rehab Strategies FAQ</h2>
         </v-col>
       </v-row>
 
       <v-row>
-        <v-col cols="6">
-          <ul class="mb-10 text-body-1">
+        <v-col md="6">
+          <ul class="text-body-1">
             <li>
               <strong> What is Rehab Strategies? </strong>
               <ul>
@@ -275,7 +264,7 @@
             </li>
           </ul>
         </v-col>
-        <v-col cols="6">
+        <v-col md="6">
           <ul>
             <li>
               <strong>
@@ -339,22 +328,19 @@
       </v-row>
     </v-card>
 
-    <v-card elevation="0" class="pa-10 mb-10" color="rgb(250,250,250)">
-    <v-row>
-      <v-col cols="4">
-       <h2 class="text-h2 mb-5">Call Us</h2>
-       <p class="text-body-1">Phone: (317) 887-1600</p>
-       <p class="text-body-1">Toll Free: 1 (877) 60-REHAB</p>
-      </v-col>
-      <v-col cols="4">
-       <h2 class="text-h2 mb-5">Email Us</h2>
+    <Footer>    
+      <template #left>
+        <h2 class="text-h2 mb-5">Call Us</h2>
+        <p class="text-body-1">Phone: (317) 887-1600</p>
+        <p class="text-body-1">Toll Free: 1 (877) 60-REHAB</p>
+      </template>
+      <template #middle>
+        <h2 class="text-h2 mb-5">Email Us</h2>
         <p class="text-body-1">
         <a color="primary" href="mailto: info@rehabstrategies.net">info@rehabstrategies.net</a>
        </p>
-      </v-col>
-      <v-spacer/>
-    </v-row>
-  </v-card>
+      </template>
+    </Footer>
   </div>
 </template>
 
@@ -365,6 +351,8 @@ import PageHeading from '@/components/atoms/PageHeading.vue'
 import CardWithSlot from '@/components/atoms/CardWithSlot.vue'
 import HeadingAndTextBlock from '@/components/atoms/HeadingAndTextBlock.vue'
 import BulletedList from '@/components/atoms/BulletedList.vue'
+import Footer from '@/components/atoms/Footer.vue'
+
 
 export default {
   name: "RehabStrategies",
@@ -372,7 +360,8 @@ export default {
     PageHeading,
     CardWithSlot,
     HeadingAndTextBlock,
-    BulletedList
+    BulletedList,
+    Footer
   },
   data() {
     return {

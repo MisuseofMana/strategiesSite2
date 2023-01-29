@@ -9,8 +9,8 @@
       >
         <v-img
           class="mb-5"
-          max-width="50%"
-          :src="require('@/assets/images/temp.jpg')"
+          max-width="25rem"
+          :src="require('@/assets/images/gentle-logo.png')"
         />
         <h1 class="text-h1">GentleCare Strategies</h1>
       </v-col>
@@ -18,7 +18,7 @@
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="5">
+        <v-col md="5">
           <p class="text-body-1 mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
           <h2 class="text-h2">
             Five Star Care, Friendly Smiles
@@ -27,7 +27,7 @@
              Our interactive care stems from our desire to offer unique 5-Star service to our community and their specific health needs. We believe that each one of our customers deserve commitment to an individualized program of care.
           </p>
         </v-col>
-        <v-col cols="6">
+        <v-col md="6">
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/gentlecare-sign.jpg')"
@@ -38,13 +38,13 @@
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="6">
+        <v-col md="6">
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/gentlecare-building.jpg')"
         />
         </v-col>
-        <v-col cols="5">
+        <v-col md="5">
           <h2 class="text-h2 mb-3">
             Support From Specialists
           </h2>

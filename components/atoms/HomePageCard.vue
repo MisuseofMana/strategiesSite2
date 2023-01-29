@@ -1,7 +1,7 @@
 <template>
     <v-card class="pa-10 mb-10">
     <v-row align="center" justify="center">
-      <v-col cols="5">
+      <v-col cols="12" md="5">
         <v-img
           :src="require(`@/assets/images/${contents.logoImage}`)"
           :alt="contents.logoImageAltText"
@@ -12,7 +12,7 @@
         <p v-for="(text, index) in contents.copy" :key="`company-copy-${index}`" class="text-body-1">{{text}}</p>
       </v-col>
       <v-spacer/>
-      <v-col cols="6" >
+      <v-col cols="12" md="6">
         <v-img class="rounded-xl" :src="require(`@/assets/images/${contents.heroImage}`)"/>
       </v-col>
     </v-row>

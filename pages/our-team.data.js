@@ -136,14 +136,16 @@ export const team = [
             `With a Master’s in Business Administration and a Health Facility Administrator license, Devon Cram brings a unique background of business education and long term care management to Care Strategies. Devon received his undergraduate degree from the University of Kentucky and went on to earn his MBA from the University of Indianapolis in 2020.`,
 
             `From his HFA educational experiences, Devon learned the ropes of facility management, employee retention, staffing, and hands on care. From his MBA education, Devon has gained knowledge of accounting services, finance management, and business management. Devon is drawn to long term care and sees the need and value for the services of Care Strategies in the communities it services. Devon is dedicated to helping Care Strategies attain quality outcomes and generating a great environment for staff and residents alike.`
-        ]
+        ],
+        mock: true
     },
     {
         name: 'Marilyn Alberson',
         image: 'mock',
         rank: '',
         paragraphs: [
-           
-        ]
+            `With a Master’s in Business Administration and a Health Facility Administrator license, Devon Cram brings a unique background of business education and long term care management to Care Strategies. Devon received his undergraduate degree from the University of Kentucky and went on to earn his MBA from the University of Indianapolis in 2020.`,
+        ],
+        mock: true
     },
 ]

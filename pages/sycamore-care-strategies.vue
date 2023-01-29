@@ -9,8 +9,8 @@
       >
         <v-img
           class="mb-5"
-          max-width="50%"
-          :src="require('@/assets/images/temp.jpg')"
+          max-width="25rem"
+          :src="require('@/assets/images/sycamore-logo.png')"
         />
         <h1 class="text-h1">Sycamore Care Strategies</h1>
       </v-col>

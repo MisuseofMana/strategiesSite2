@@ -36,7 +36,7 @@
       <v-container :fluid="navigation" class="pa-10">
         <v-btn
           elevation="1"
-          class="d-flex align-center justify-center mb-5 white--text pa-7"
+          class="d-flex align-center justify-center mb-10 white--text pa-7"
           color="primary"
           @click="toggleNavigation"
         >

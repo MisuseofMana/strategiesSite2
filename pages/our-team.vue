@@ -18,6 +18,7 @@
       :who="item.name"
       :rank="item.rank"
       :paragraphs="item.paragraphs"
+      :mock="item.mock"
     />
   </div>
 </template>

@@ -9,8 +9,8 @@
       >
         <v-img
           class="mb-5"
-          max-width="50%"
-          :src="require('@/assets/images/temp.jpg')"
+          max-width="25rem"
+          :src="require('@/assets/images/cardinal-logo.png')"
         />
         <h1 class="text-h1">Cardinal Care Strategies</h1>
       </v-col>
@@ -29,7 +29,7 @@
         <v-col cols="6">
         <v-img
           class="rounded-xl"
-          :src="require('@/assets/images/poplar-entrance.jpg')"
+          :src="require('@/assets/images/cardinal-sign.jpg')"
         />
         </v-col>
       </v-row>
@@ -40,7 +40,7 @@
         <v-col cols="6">
         <v-img
           class="rounded-xl"
-          :src="require('@/assets/images/temp-photo.jpg')"
+          :src="require('@/assets/images/cardinal-courtyard.jpg')"
         />
         </v-col>
         <v-col cols="5">
@@ -67,7 +67,7 @@
         <v-col cols="6">
         <v-img
           class="rounded-xl"    
-          :src="require('@/assets/images/temp-photo.jpg')"
+          :src="require('@/assets/images/cardinal-pond.jpg')"
         />
         </v-col>
       </v-row>
@@ -77,8 +77,8 @@
       <template #left>
         <v-img
           max-width="200px"
-          :src="require('@/assets/images/staff/derrek.png')"
-          class="mb-4"
+          :src="require('@/assets/images/staff/mock.png')"
+          class="mb-4 rounded"
         />
       </template>
       <template #middle>
@@ -88,9 +88,10 @@
       </template>
       <template #right>
           <h3 class="text-h3 mb-3">Visit Us</h3>
-          <h4 class="text-h4">313 Poplar St,</h4>
-          <h4 class="text-h4 mb-3">Loogootee, IN 47553</h4>
-          <h4 class="text-h4">(812) 295-4433</h4>
+          <h4 class="text-h4">4600 East Jackson St,</h4>
+          <h4 class="text-h4 mb-3">Indianapolis, IN 46241
+</h4>
+          <h4 class="text-h4">(765) 292-1416</h4>
       </template>
     </Footer>
 
@@ -108,3 +109,11 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.rounded {
+  border-radius: 9999px !important;
+  height: 10rem;
+  width: 10rem;
+}
+</style>
