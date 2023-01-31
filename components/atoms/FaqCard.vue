@@ -8,8 +8,8 @@
         </v-col>
       </v-row>
       <v-row>
-        <v-col cols="6">
-            <ul class="mb-10 text-body-1">
+        <v-col cols="12" md="6">
+            <ul class="text-body-1">
                 <li v-for="(item, index) in firstHalfOfList" :key="makeUniqueId(item.question, index)">
                     <strong>{{item.question}}</strong>
                     <ul>
@@ -20,7 +20,7 @@
                 </li>
             </ul>
         </v-col>
-        <v-col cols="6">
+        <v-col cols="12" md="6">
             <ul class="mb-10 text-body-1">
                 <li v-for="(item, index) in secondHalfOfList" :key="makeUniqueId(item.question, index)">
                     <strong>{{item.question}}</strong>

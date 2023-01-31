@@ -9,7 +9,7 @@
       <template #right>
         <div class="d-flex flex-column justify-center align-center">
           <h2 class="text-h2 mb-3">The Three Therapies</h2>
-          <p class="text-body-1s">Click a therapy below for more info.</p>
+          <p class="text-body-1">Click a therapy below for more info.</p>
           <v-btn
             color="primary"
             class="white--text mb-5"

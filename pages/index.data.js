@@ -42,8 +42,10 @@ export const strategies = {
         profitable.
         `,
     ],
-    heroImage: 'placeholder.jpg',
-    heroAlt: ''
+    heroImage: 'compass.jpg',
+    heroAlt: '',
+    stockLink: 'https://unsplash.com/@zayyerrn',
+    stockName: 'Ahmed Zayan'
 }
 
 export const rehabStrategies = {
@@ -59,8 +61,10 @@ export const rehabStrategies = {
         Rehab Strategies will alleviate stress by internalizing decisions and solving problems for any provider housing a rehab department. Ron and Jamey will work in conjunction with the facility to build therapy teams that are highly motivated, efficient and produce cost-effective outcomes. Their model isn’t just for long term care facilities; it can be tailored to fit the needs of hospitals, outpatient centers, skilled nursing facilities, assisted and independent living centers.
         `,
     ],
-    heroImage: 'placeholder.jpg',
-    heroAlt: ''
+    heroImage: 'teamwork.jpg',
+    heroAlt: '',
+    stockLink: 'https://unsplash.com/@mrsunflower94',
+    stockName: 'Matteo Vistocco'
 }
 
 export const staffingStrategies = {
@@ -78,8 +82,10 @@ export const staffingStrategies = {
         To help fill these gaps, Staffing Strategies developed a reliable, on-call roster of physical therapists, occupational therapists, speech therapists and specifically trained assistants. Our staff can be assigned to a facility for coverage lasting as short as a few hours to concurrent weeks lasting as long as the facility needs.
         `,
     ],
-    heroImage: 'placeholder.jpg',
-    heroAlt: ''
+    heroImage: 'staff.jpg',
+    heroAlt: '',
+    stockLink: 'https://unsplash.com/@dylandgillis',
+    stockName: 'Dylan Gillis'
 }
 
 export const careStrategies = {
@@ -94,8 +100,11 @@ export const careStrategies = {
         In 2018, the entrepreneurial pair of Ron Cram and Jamey Kleva achieved their longstanding dream of owning and operating a facility that provides long-term residential care to individuals with intellectual disabilities, traumatic brain injuries and physical disabilities. They had the opportunity to enter the marketplace with the advent of Care Strategies by purchasing a small facility in Muncie, Indiana: Brookside Care Strategies. With that purchase, Ron and Jamey were able to incorporate all their services, completing their vision by providing therapy, staffing and the latest technology in one location.
         `,
     ],
-    heroImage: 'placeholder.jpg',
-    heroAlt: ''
+    heroImage: 'brookside-sign.jpg',
+    heroAlt: '',
+    stockLink: '',
+    noLink: true,
+    stockName: 'Lisa Weartz'
 }
 
 export const itStrategies = {
@@ -111,6 +120,9 @@ export const itStrategies = {
         With technology developing at a lightning pace, Ron Cram and Jamey optimize services. With that idea in mind, Innovative Treatment Strategies (ITS)was born in 2013. ITS brings the latest technology to our clients at a reasonable cost and with therapists that are knowledgeable in both the use and efficacy of the equipment. This includes their exclusive product, The MR Cube.
         `,
     ],
-    heroImage: 'placeholder.jpg',
-    heroAlt: ''
+    heroImage: 'sunrise.jpg',
+    heroAlt: '',
+    stockLink: 'https://unsplash.com/@lukealrich',
+    noLink: true,
+    stockName: 'Luke Richardson'
 }

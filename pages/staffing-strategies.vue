@@ -9,41 +9,32 @@
       >
         <v-img
           class="mb-5"
-          max-width="500px"
+          max-width="25rem"
           :src="require('@/assets/images/temp.jpg')"
         />
         <h1 class="text-h1">Staffing Strategies</h1>
       </v-col>
     </v-row>
 
-    <CardWithSlot leftCols="12">
+    <CardWithSlot leftCols="5" rightCols="7">
       <template #left>
         <HeadingAndTextBlock heading="What is Staffing Strategies and what can we do for you?" :paragraphs="staffing.info"/>
       </template>
-    </CardWithSlot>
-
-    <v-card class="pa-10 mb-10">
-      <v-row>
-        <v-col cols="5" class="d-flex flex-column justify-center align-center">
-          <h2 class="text-h2 mb-3">We hire, we work, we share our staff.</h2>
-          <v-img
-            :src="require('@/assets/images/placeholder.jpg')"
-            class="mb-6 rounded-xl"
-          />
-        </v-col>
-        <v-spacer />
-        <v-col cols="6">
-          <h2 class="text-h2 mb-3">Are You Looking for a Hero?</h2>
+      <template #right>
+           <h2 class="text-h2 mb-3">We hire, we work, we share our staff.</h2>
           <a href="mailto: lcram@staffingstrategies.net">
             <v-btn class="mb-7" color="primary">
               Contact our Staffing Coordinator
             </v-btn>
           </a>
+          <v-img
+            :src="require('@/assets/images/staff.jpg')"
+            class="mb-6 rounded-xl"
+          />
 
           <BulletedList paragraph="Our partners contact us when they need to supplement staff. We develop close relationships with our client partners and tailor our services to their immediate needs. Consider us your staffing RESCUE SQUAD – we are here when you need us - for as little as two hours up to 13-week assignments. In addition to providing additional staff we provide RELIEF and peace of mind. As a Staffing Strategies client partner, you will have access to dependable, professional, and fully vetted staff. All nursing and therapy staff are subjected to the following:" :listItems="staffing.heroList"/>
-        </v-col>
-      </v-row>
-    </v-card>
+      </template>
+    </CardWithSlot>
 
     <FaqCard
       heading="Staffing Strategies FAQ"
