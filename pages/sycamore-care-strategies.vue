@@ -18,7 +18,7 @@
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="5">
+        <v-col md="5">
           <h2 class="text-h2 mb-3">
             Sycamore Care Strategies
           </h2>
@@ -26,7 +26,7 @@
             From the moment you step onto the front porch and through our doors, you will notice something different. Our friendly, homelike atmosphere puts you at ease. The cleanliness and beauty of the surroundings and the warm friendly attitudes of our staff assures you that we take pride in our facility.
           </p>
         </v-col>
-        <v-col cols="6">
+        <v-col md="6">
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/sycamore-sign.jpg')"
@@ -37,13 +37,13 @@
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="6">
+        <v-col md="6">
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/sycamore-porch.jpg')"
         />
         </v-col>
-        <v-col cols="5">
+        <v-col md="5">
             <h2 class="text-h2 mb-3">We Offer Care and Commitment.</h2>
           <p class="text-body-1">
             You see immediately how much we care about our residents, families, and community. We offer a wide spectrum of services, from specialized skilled care to assistance with minor activities of daily living. Whether you come for short-term rehabilitative care, respite care, adult day care, or choose to make Sycamore Care Strategies your home, you will find the same commitment.
@@ -57,19 +57,17 @@
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
-        <v-spacer/>
-        <v-col cols="7">
+        <v-col md="8">
             <h2 class="text-h2 mb-3">So What's It Like Nearby?</h2>
           <p class="text-body-1">
              Local churches volunteer and hold services at Sycamore Care Strategies for those who find strength in their faith. You will see our bus out and about, as our activity staff assures that our residents are about to attend many community events, from farm shows to museum visits. 
           </p>
         </v-col>
-        <v-spacer/>
       </v-row>
 
       <v-row>
         <v-spacer/>
-        <v-col cols="5">
+        <v-col md="5">
          <v-img
           class="rounded-xl"
           :src="require('@/assets/images/sycamore-lake.jpg')"
@@ -77,7 +75,7 @@
         </v-col>
         <v-spacer/>
 
-        <v-col cols="5">
+        <v-col md="5">
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/sycamore-building.jpg')"

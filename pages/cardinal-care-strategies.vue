@@ -18,7 +18,7 @@
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="5">
+        <v-col md="5">
           <h2 class="text-h2">
             Therapy and Care in Muncie
           </h2>
@@ -26,7 +26,7 @@
             From our spacious halls to our outdoor landscape, Cardinal Care Strategies seeks to offer the Muncie community a place they can call home. We offer Therapy, hands-on patient care, medication administration, nutritious meals, and interactive activities.
           </p>
         </v-col>
-        <v-col cols="6">
+        <v-col md="6">
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/cardinal-sign.jpg')"
@@ -37,13 +37,13 @@
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="6">
+        <v-col md="6">
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/cardinal-courtyard.jpg')"
         />
         </v-col>
-        <v-col cols="5">
+        <v-col md="5">
           <h2 class="text-h2 mb-3">
             In House Therapy
           </h2>
@@ -56,7 +56,7 @@
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="5">
+        <v-col md="5">
           <h2 class="text-h2 mb-3">
             Outdoor Options
           </h2>
@@ -64,7 +64,7 @@
             Whether it is enjoying the outdoors on our furnished patio, enjoying a cup of coffee during social hour, or unwinding in your room, we offer activities to fill the day. Our services include Medicare skilled services, short-term rehabilitation, respite care, hospice care, and long-term care.
           </p>
         </v-col>
-        <v-col cols="6">
+        <v-col md="6">
         <v-img
           class="rounded-xl"    
           :src="require('@/assets/images/cardinal-pond.jpg')"

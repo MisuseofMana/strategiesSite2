@@ -57,7 +57,7 @@
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
-        <v-col cols="5">
+        <v-col md="5">
           <h2 class="text-h2 mb-3">
            Clean and Consistent Care
           </h2>
@@ -65,7 +65,7 @@
            When you walk into our building, our clean halls are accompanied by friendly smiles and caring staff. GentleCare of Vincennes offers a variety of care options, including Medicare skilled services, short-term rehabilitation, respite care, hospice care, and long-term care.
           </p>
         </v-col>
-        <v-col cols="6">
+        <v-col md="6">
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/gentlecare-inside.jpg')"
@@ -83,7 +83,7 @@
         />
       </template>
       <template #middle>
-        <h3 class="text-h3 mb-3">Contact our Building Administrator</h3>
+        <h4 class="text-h4 mb-3">Contact our Building Administrator</h4>
         <h4 class="text-h4 mb-2">Stacy Blue</h4>
         <EmailLink email="sblue@gentlecarecs.net"/>
       </template>

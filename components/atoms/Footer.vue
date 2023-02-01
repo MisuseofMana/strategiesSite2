@@ -1,15 +1,15 @@
 <template>
-<v-card elevation="1" class="pa-10 mb-10" color="#e9e9e9">
+<v-card elevation="1" class="pa-10 mb-10" color="#fafafa">
     <v-row class="d-flex align-center">
-        <v-col cols="12" md="3" class="my-5">
+        <v-col cols="12" md="3" class="my-5" :class="centerStyle">
             <slot name="left"></slot>
         </v-col>
-        <v-col cols="12" md="3">
+        <v-col cols="12" md="3" :class="centerStyle">
             <slot name="middle">
 
             </slot>
         </v-col>
-        <v-col cols="12" md="6">
+        <v-col cols="12" md="6" :class="centerStyle">
             <slot name="right"></slot>
         </v-col>    
     </v-row>
@@ -18,8 +18,13 @@
 
 <script>
 export default {
-    mounted() {
-        console.log(this.$vuetify.breakpoint.mobile)
-    }
+    computed: {
+        centerStyle() {
+            if(this.$vuetify.breakpoint.mobile) {
+                return 'd-flex justify-center align-center flex-column text-center'
+            }
+            return ''
+        }
+    },
 }
 </script>

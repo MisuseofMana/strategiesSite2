@@ -89,11 +89,9 @@ export const team = [
         image: 'tori',
         rank: '@ The Strategies',
         paragraphs: [
-            `After receiving a degree in communications from IUPUI, Tori began a career in Long Term Care in 2014. Tori has used her experience and expertise she has learned to work her way into a corporate management position with Care Strategies as of 2018. Tori performs a wide array of essential tasks for Care Strategies, including human resources responsibilities, payroll processing, and accounts payable responsibilities. Tori also oversees all day-to-day issues and concerns within all the Care Strategies facilities.`,
-
-            `Tori loves working for The Strategies because she feels like The Strategies is a company that truly cares about the communities they serve. Tori loves having the ability to do her job in an environment that encourages growth, innovation, and collaboration.After receiving a degree in communications from IUPUI, Tori began a career in Long Term Care in 2014. Tori has used her experience and expertise she has learned to work her way into a corporate management position with Care Strategies as of 2018.`,
-        
-            `Tori performs a wide array of essential tasks for Care Strategies, including human resources responsibilities, payroll processing, and accounts payable responsibilities. Tori also oversees all day-to-day issues and concerns within all the Care Strategies facilities. Tori loves working for The Strategies because she feels like The Strategies is a company that truly cares about the communities they serve. Tori loves having the ability to do her job in an environment that encourages growth, innovation, and collaboration.`
+            `Tori has spent her entire career working in Long-Term Care and can’t imagine doing anything else. Starting as a dietary aide in a nursing home in 2014, her passion for Long Term Care residents kept her on a career path that led to a promotion to Receptionist, then Human Resources Manager and ultimately, working for a management company processing payroll and managing the accounts payable for several Long-Term Care facilities.`,
+            
+            ` Tori has a BA in Communication Studies and uses her skills in human relations to better understand employees and how our company can best service their needs. Tori hopes to use her positive attitude and drive for consistency to encourage others to work hard and succeed. In her personal time, Tori likes to play at the park with her daughter, crochet obnoxiously big blankets, and explore new and unusual restaurants.`
         ]
     },
     {
@@ -120,7 +118,7 @@ export const team = [
     },
     {
         name: 'Devon Cram, MBA, HFA',
-        image: 'mock',
+        image: 'devon',
         rank: '@ Care Strategies',
         paragraphs: [
             `With a Master’s in Business Administration and a Health Facility Administrator license, Devon Cram brings a unique background of business education and long term care management to Care Strategies. Devon received his undergraduate degree from the University of Kentucky and went on to earn his MBA from the University of Indianapolis in 2020.`,
@@ -130,7 +128,7 @@ export const team = [
     },
     {
         name: 'Angie Bridges, Corporate Billing Specialist',
-        image: 'mock',
+        image: 'angie',
         rank: '@ Care Strategies',
         paragraphs: [
             `With a Master’s in Business Administration and a Health Facility Administrator license, Devon Cram brings a unique background of business education and long term care management to Care Strategies. Devon received his undergraduate degree from the University of Kentucky and went on to earn his MBA from the University of Indianapolis in 2020.`,

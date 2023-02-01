@@ -2,13 +2,11 @@
   <div>
     <v-row class="mb-10">
       <v-col
-        cols="12"
-        align-self="center"
-        justify-self="center"
-        class="d-flex flex-column align-center"
+        md="12"
+        class="d-flex flex-column align-center justify-center"
       >
         <v-img
-          max-width="10%"
+          :max-width="itsLogoConstraint"
           class="mb-6"
           :src="require('@/assets/images/ITSlogo.jpg')"
         />
@@ -20,7 +18,7 @@
 
     <v-card class="pa-10 mb-10">
       <v-row>
-        <v-col cols="6">
+        <v-col md="6">
           <h2 class="text-h2 mb-3">Innovative Treatment Strategies</h2>
           <p class="text-body-1">
             Is your therapy gym stagnant? Are your therapists using the same
@@ -62,11 +60,10 @@
               color="primary"
               href="mailto: info@innovativetreatment.net"
               >info@innovativetreatment.net</a
-            >for a demonstration.
+            > for a demonstration.
           </p>
         </v-col>
-        <v-spacer />
-        <v-col cols="5" class="d-flex flex-column">
+        <v-col md="6" class="d-flex flex-column">
           <h2 class="text-h2 mb-3">What Do We Do?</h2>
           <p class="text-body-1">
             All of the ITS specialized treatment systems are designed to
@@ -83,7 +80,7 @@
 
     <v-card class="pa-10 mb-10">
       <v-row>
-        <v-col cols="6">
+        <v-col md="6">
           <h2 class="text-h2 mb-3">Building Your Therapy Business</h2>
           <p class="text-body-1">
             Our solutions introduce new revenue sources by expanding specialized
@@ -103,8 +100,7 @@
             are minimized with our systems.
           </p>
         </v-col>
-        <v-spacer />
-        <v-col cols="5" class="d-flex flex-column">
+        <v-col md="5" class="d-flex flex-column">
           <v-img class="rounded-xl" :src="require('@/assets/images/placeholder.jpg')" />
         </v-col>
       </v-row>
@@ -112,8 +108,8 @@
 
     <v-card class="pa-10 mb-10">
       <v-row>
-        <v-col cols="5" class="d-flex flex-column">
-          <div class="content d-flex flex-column align-center">
+        <v-col md="6">
+          <div class="text-center">
             <iframe
               class="videoPlayer"
               src="https://player.vimeo.com/video/278169695?byline=0&portrait=0"
@@ -131,8 +127,7 @@
             </p>
           </div>
         </v-col>
-        <v-spacer />
-        <v-col cols="6">
+        <v-col md="6">
           <h2 class="text-h2 mb-3">Empowering and Equiping Your Therapists</h2>
           <p class="text-body-1">
             ITS' solutions help reduce patients' pain in therapy, and speed up
@@ -151,7 +146,7 @@
 
     <v-card class="pa-10 mb-10">
       <v-row>
-        <v-col cols="6">
+        <v-col md="6">
           <h2 class="text-h2 mb-3">
             Enhancing Patient Outcomes and Satisfaction
           </h2>
@@ -170,8 +165,8 @@
           </p>
         </v-col>
         <v-spacer />
-        <v-col cols="5" class="d-flex flex-column">
-          <div class="content d-flex flex-column align-center">
+        <v-col md="5">
+          <div class="d-flex flex-column align-center">
             <iframe
               class="videoPlayer"
               src="https://player.vimeo.com/video/278154734?title=0&byline=0&portrait=0"
@@ -380,6 +375,24 @@
   </v-card>
   </div>
 </template>
+
+<script>
+import CardWithSlot from '@/components/atoms/CardWithSlot.vue'
+
+export default {
+  computed: {
+    itsLogoConstraint() {
+      if(this.$vuetify.breakpoint.mobile) {
+                return '40%'
+            }
+            return '10%'
+    }
+  },
+  components: {
+    CardWithSlot
+  }
+}
+</script>
 
 <style scoped>
 .videos .el-col {
