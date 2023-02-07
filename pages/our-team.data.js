@@ -131,11 +131,10 @@ export const team = [
         image: 'angie',
         rank: '@ Care Strategies',
         paragraphs: [
-            `With a Master’s in Business Administration and a Health Facility Administrator license, Devon Cram brings a unique background of business education and long term care management to Care Strategies. Devon received his undergraduate degree from the University of Kentucky and went on to earn his MBA from the University of Indianapolis in 2020.`,
-
-            `From his HFA educational experiences, Devon learned the ropes of facility management, employee retention, staffing, and hands on care. From his MBA education, Devon has gained knowledge of accounting services, finance management, and business management. Devon is drawn to long term care and sees the need and value for the services of Care Strategies in the communities it services. Devon is dedicated to helping Care Strategies attain quality outcomes and generating a great environment for staff and residents alike.`
+            `Angie has worked in Health Care on and off since she was 17 years old. Her first job was at Westminster Village in Muncie as a receptionist. She's worked at the Roudebush VA Medical Center, Ascension St. Vincent of Anderson, Willowbend Living Center, and Bethany Cares Home Health Agency. Along her way, she's filled many rolls from Receptionist to Unit Secretary, Activity Director to Payroll Clerk, and many more. She loves the enviornment Care Strategies has created for residents and staff. `,
+            `Angie sets out to learn something new every day. Since that time, She handles Medicaid, Medicare, Private Pay, and Private Insurance billing for all The Strategies buildings. She enjoy assisting staff, residents, and residents’ families with anything at all. Angie graduated from Muncie Southside High School and went to International Business College in Indianapolis.`,
         ],
-        mock: true
+        mock: false
     },
     {
         name: 'Marilyn Alberson',
