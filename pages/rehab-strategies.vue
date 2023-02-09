@@ -4,7 +4,7 @@
     
     <CardWithSlot leftCols="7" rightCols="5">
       <template #left>
-        <HeadingAndTextBlock heading="What is Rehab Strategies and what can we do for you?" uniqueId="rehab" :paragraphs="rehab.intro"/>
+        <HeadingAndTextBlock heading="What Is Rehab Strategies?" uniqueId="rehab" :paragraphs="rehab.intro"/>
       </template>
       <template #right>
         <div class="d-flex flex-column justify-center align-center">
@@ -117,12 +117,16 @@
 
     <CardWithSlot leftCols="6" rightCols="6">
       <template #left>
-      <div>
-        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdZkaiy4_YNZGOCkMfpX6gbKtI6MygBkozwLKvrJZ2bWSGskA/viewform?embedded=true" width="100%" height="800" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-      </div>
+          <iframe width="100%" :height="iframeSize" src="https://docs.google.com/forms/d/e/1FAIpQLSdZkaiy4_YNZGOCkMfpX6gbKtI6MygBkozwLKvrJZ2bWSGskA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </template>
       <template #right>
         <BulletedList headingOne="Work for Rehab Strategies" headingTwo="We offer:" :listItems="rehab.offerList"/>
+      </template>
+    </CardWithSlot>
+    
+    <CardWithSlot leftCols="12">
+      <template #left>
+        <HeadingAndTextBlock heading="What Can Rehab Strategies Do For You?" uniqueId="what do" :paragraphs="rehab.spiel"/>
       </template>
     </CardWithSlot>
 
@@ -170,7 +174,8 @@
       <template #right>
         <h2 class="text-h2 mb-5">Technology</h2>
           <ul class="text-body-1">
-            <li>CASAMBA - Therapy Software – Practice Management Software</li>
+            <li>NetHealth - Therapy Software – Practice Management Software
+</li>
             <li>
               OnusOne – Web Based, Shared-Risk Employee Compensation Program
             </li>
@@ -369,7 +374,13 @@ export default {
       physicalOverlay: false,
       occupationalOverlay: false,
       speechOverlay: false,
+      frameHeight: '',
     }
   },
+  computed: {
+    iframeSize() {
+      return this.$vuetify.breakpoint.mobile ? '800px' : '600px'
+    }
+  }
 }
 </script>

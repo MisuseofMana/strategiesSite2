@@ -141,8 +141,9 @@ export const team = [
         image: 'mock',
         rank: '',
         paragraphs: [
-            `With a Master’s in Business Administration and a Health Facility Administrator license, Devon Cram brings a unique background of business education and long term care management to Care Strategies. Devon received his undergraduate degree from the University of Kentucky and went on to earn his MBA from the University of Indianapolis in 2020.`,
+            `Marilyn resides on an Indiana family farm in Randolph County with her husband. She has two married sons, nine grandchildren and seven great grandchildren. Two of her grandsons are currently serving in the military.`,
+            `She is honored to be the Administrator at Cardinal Care Strategies in Muncie, IN and has been in health care for over 20 years in various arenas. She graduated high school from Jay County and received her degree from Phoenix University. She has achieved Bronze Quality Award while in a facility and in that same facility received a deficiency free annual state survey.`,
+            `She has a passion to provide the best care for all residents in a positive, friendly and home like environment and to be a leader that encourages all team members to excel and reach their highest potential. She strives to live by the Golden Rule; do unto others as you would them do unto you. Some of her hobbies are golfing, reading, camping, spending time with grandchildren, traveling on their Harley motorcycles, and being active in their church.`,
         ],
-        mock: true
     },
 ]
