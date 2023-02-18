@@ -14,7 +14,7 @@
       </v-col>
       <v-spacer/>
       <v-col cols="12" md="6" class="d-flex flex-column justify-center align-center">
-        <v-img eagerclass="rounded-xl mb-3" max-height="800px" :src="require(`@/assets/images/${contents.heroImage}`)"/>
+        <v-img class="rounded-xl mb-3" max-height="800px" eager :src="require(`@/assets/images/${contents.heroImage}`)"/>
         <p class="text-body-1" v-if="contents.stockLink">Photo by 
           <a :href="contents.stockLink">{{contents.stockName}}</a>
         </p>
