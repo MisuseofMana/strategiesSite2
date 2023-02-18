@@ -7,10 +7,24 @@
       width="30rem"
       class="px-10 pt-10"
     >
+
+      <v-btn
+          v-if="$vuetify.breakpoint.mobile"
+          elevation="1"
+          class="d-flex align-center justify-center mb-10 white--text pa-7"
+          color="primary"
+          @click="toggleNavigation"
+        >
+          <v-icon class="mr-2">{{menuIcon}}</v-icon>
+          <span v-if="navigation"> CLOSE MENU </span>
+          <span v-if="!navigation"> OPEN MENU </span>
+        </v-btn>
+
       <v-img
         :src="require('@/assets/images/strategies-logo.png')"
         max-height="150"
         class="mb-5 mx-2"
+        eager
       />
       <v-list class="px-2">
         <v-list-item

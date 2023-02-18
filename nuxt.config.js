@@ -9,7 +9,7 @@ export default {
     dir: 'docs'
   },
   router: {
-    base: '/strategiesSite2/'
+    base: '/'
   },
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {

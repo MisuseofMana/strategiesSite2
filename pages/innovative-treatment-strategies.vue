@@ -3,12 +3,13 @@
     <v-row class="mb-10">
       <v-col
         md="12"
-        class="d-flex flex-column align-center justify-center"
+        class="d-flex flex-column align-center justify-cente text-center"
       >
         <v-img
           :max-width="itsLogoConstraint"
           class="mb-6"
-          :src="require('@/assets/images/ITSlogo.jpg')"
+          :src="require('@/assets/images/ITSLogo.png')"
+          eager
         />
         <h1 class="text-h1">
           A Leading Provider of Cutting Edge Rehabilitation Products
@@ -100,8 +101,11 @@
             are minimized with our systems.
           </p>
         </v-col>
-        <v-col md="5" class="d-flex flex-column">
-          <v-img class="rounded-xl" :src="require('@/assets/images/placeholder.jpg')" />
+        <v-col md="6" class="d-flex flex-column align-center">
+           <v-img eager class="rounded-xl mb-3" max-height="800px" :src="require('@/assets/images/passion.jpg')"/>
+        <p class="text-body-1">Photo by 
+          <a href="https://unsplash.com/@goian">Ian Schneider</a>
+        </p>
         </v-col>
       </v-row>
     </v-card>
@@ -164,8 +168,7 @@
             improved.
           </p>
         </v-col>
-        <v-spacer />
-        <v-col md="5">
+        <v-col md="6">
           <div class="d-flex flex-column align-center">
             <iframe
               class="videoPlayer"
@@ -189,197 +192,42 @@
       </v-row>
     </v-card>
 
-    <v-card class="pa-10 mb-10">
-      <v-row>
-        <v-col cols="12">
-          <h2>Innovative Treatment Strategies FAQ</h2>
-        </v-col>
-      </v-row>
+    <FaqCard
+      heading="Innovative Treatment Strategies FAQ"
+      :listItems="its.faq"
+    />
 
-      <v-row>
-        <v-col cols="6">
-          <ul>
-            <li>
-              <strong> What is ITS? </strong>
-              <ul>
-                <li>
-                  ITS stands for Innovative Treatment Supplies. ITS can provide
-                  your therapy department with needed equipment to make treating
-                  patients easier.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong> What equipment can ITS provide? </strong>
-              <ul>
-                <li>
-                  ITS can order any therapy equipment a department would need,
-                  but the MR Cube is their top seller. ITS is the exclusive
-                  distributor for the MR Cube.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong> What is the MR Cube? </strong>
-              <ul>
-                <li>
-                  It is a portable, functional training and testing device that
-                  therapists can use to not only eliminate monotony of a therapy
-                  session, but also collect objective data on a patient’s
-                  progress.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>
-                Why should our facility purchase a MR Cube for our therapy gym?
-              </strong>
-              <ul>
-                <li>
-                  MR Cube takes the guesswork out of evaluating a patient. With
-                  the objective data collected straight to a computer, the
-                  patient’s baseline is collected and progress can be obtained
-                  with each use.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong> How does the MR Cube work? </strong>
-              <ul>
-                <li>
-                  The therapist connects the MR Cube to the patient via a tether
-                  and has the patient perform “games” on a computer screen.
-                  While the patient is engaged in a fun therapy session, the
-                  portable dynamo reads the data collected from the patient and
-                  downloads it to a computer.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>
-                How is the MR Cube better than the old tried and true methods
-                used in the average therapy session?
-              </strong>
-              <ul>
-                <li>
-                  The data collected from the MR Cube provides the therapist
-                  with objective results instantly while the patient enjoys
-                  his/her therapy session. With the exercises creatively
-                  disguised as a video game, the patient’s competitive nature is
-                  sparked and each therapy session becomes a challenge to
-                  increase his/her area of weakness by trying to beat the
-                  previous score.
-                </li>
-              </ul>
-            </li>
-           
-          </ul>
-        </v-col>
-
-        <v-col cols="6">
-          <ul>
-             <li>
-              <strong>
-                How can our therapy department see the MR Cube in action?
-              </strong>
-              <ul>
-                <li>
-                  Contact Jamey Kleva at
-                  <a href="mailto: jkleva@innovativetreatment.net">
-                    jkleva@innovativetreatment.net
-                  </a>
-                  and she will schedule a demonstration. Our therapists will set
-                  an onsite visit where your therapists and patients can learn
-                  about the MR Cube and receive hands on training.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>
-                How will we know if more than one MR Cube is needed for our
-                department?
-              </strong>
-              <ul>
-                <li>
-                  Once your patients experience their exercises on the MR Cube,
-                  they will be fighting over MR Cube time.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong> Can the MR Cube be rented to our facility? </strong>
-              <ul>
-                <li>
-                  Yes, contact
-                  <a href="mailto: jkleva@innovativetreatment.net">
-                    Jamey Kleva
-                  </a>
-                  for details on a rental agreement.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>
-                Is the software updated and are the updates included in the
-                price?
-              </strong>
-              <ul>
-                <li>
-                  Yes, software upgrades are included as they become available
-                  for two years. After two years, new updates will be provided
-                  for a nominal fee.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong>
-                With staff turnover, how can we avoid a new staff leaving the MR
-                Cube in the corner and not using it to its full potential?
-              </strong>
-              <ul>
-                <li>
-                  Our therapists can set up a retraining session to make sure
-                  the MR Cube is being used to its full potential.
-                </li>
-              </ul>
-            </li>
-            <li>
-              <strong> Will the MR Cube pay for itself? </strong>
-              <ul>
-                <li>
-                  Yes, by adding additional HCPCS treatment codes, Medicare will
-                  reimburse for the MR Cube treatments.
-                </li>
-              </ul>
-            </li>
-          </ul>
-        </v-col>
-      </v-row>
-    </v-card>
-
-    <v-card elevation="0" class="pa-10 mb-10" color="rgb(250,250,250)">
-    <v-row>
-      <v-col cols="4">
-       <h2 class="text-h2 mb-5">Call Us</h2>
-       <p class="text-body-1">(317) 887-1600</p>
-       <p class="text-body-1">Toll Free: 1 (877) 60-REHAB</p>
-      </v-col>
-      <v-col cols="4">
-       <h2 class="text-h2 mb-5">Email Us</h2>
+    <Footer>    
+      <template #left>
+        <h2 class="text-h2 mb-5">Call Us</h2>
+        <p class="text-body-1">(317) 887-1600</p>
+        <p class="text-body-1">Toll Free: 1 (877) 60-REHAB</p>
+      </template>
+      <template #middle>
+        <h2 class="text-h2 mb-5">Email Us</h2>
         <p class="text-body-1">
-        <a color="primary" href="mailto: info@innovativetreatment.net">info@innovativetreatment.net</a>
-       </p>
-      </v-col>
-      <v-spacer/>
-    </v-row>
-  </v-card>
+          <a color="primary" href="mailto: info@innovativetreatment.net">info@innovativetreatment.net</a>
+        </p>
+      </template>
+    </Footer>
   </div>
 </template>
 
 <script>
-import CardWithSlot from '@/components/atoms/CardWithSlot.vue'
+import {its} from './its.data'
+import Footer from '@/components/atoms/Footer.vue'
+import FaqCard from '@/components/atoms/FaqCard.vue'
 
 export default {
+  components: {
+    Footer,
+    FaqCard
+  },
+  data() {
+    return {
+      its,
+    }
+  },
   computed: {
     itsLogoConstraint() {
       if(this.$vuetify.breakpoint.mobile) {
@@ -388,9 +236,6 @@ export default {
             return '10%'
     }
   },
-  components: {
-    CardWithSlot
-  }
 }
 </script>
 

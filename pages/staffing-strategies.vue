@@ -5,12 +5,13 @@
         cols="12"
         align-self="center"
         justify-self="center"
-        class="d-flex flex-column align-center"
+        class="d-flex flex-column align-center text-center"
       >
         <v-img
           class="mb-5"
-          max-width="25rem"
-          :src="require('@/assets/images/temp.jpg')"
+          max-width="20rem"
+          :src="require('@/assets/images/staffing-logo.png')"
+          eager
         />
         <h1 class="text-h1">Staffing Strategies</h1>
       </v-col>
@@ -22,14 +23,18 @@
       </template>
       <template #right>
            <h2 class="text-h2 mb-3">We hire, we work, we share our staff.</h2>
+           <p class="text-body-1">
+             Email our Staffing Coordinator, Lauren Cram.
+           </p>
           <a href="mailto: lcram@staffingstrategies.net">
             <v-btn class="mb-7" color="primary">
-              Contact our Staffing Coordinator
+              Click Here For Email
             </v-btn>
           </a>
           <v-img
             :src="require('@/assets/images/staff.jpg')"
             class="mb-6 rounded-xl"
+            eager
           />
 
           <BulletedList paragraph="Our partners contact us when they need to supplement staff. We develop close relationships with our client partners and tailor our services to their immediate needs. Consider us your staffing RESCUE SQUAD – we are here when you need us - for as little as two hours up to 13-week assignments. In addition to providing additional staff we provide RELIEF and peace of mind. As a Staffing Strategies client partner, you will have access to dependable, professional, and fully vetted staff. All nursing and therapy staff are subjected to the following:" :listItems="staffing.heroList"/>
@@ -47,11 +52,13 @@
           max-width="200px"
           :src="require('@/assets/images/staff/lauren.png')"
           class="mb-4"
+          eager
         />
       </template>
     <template #middle>
         <h3 class="text-h3 mb-3">Contact our Staffing Coordinator</h3>
         <h4 class="text-h4 mb-2">Lauren Cram</h4>
+        <a href="mailto: lcram@staffingstrategies.net">lcram@staffingstrategies.net</a>
         <p class="text-body-1 mb-4">(317) 412-6058</p>
     </template>
     </Footer>

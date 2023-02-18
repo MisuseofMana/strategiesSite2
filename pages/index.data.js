@@ -68,7 +68,7 @@ export const rehabStrategies = {
 }
 
 export const staffingStrategies = {
-    logoImage: `temp.jpg`,
+    logoImage: `staffing-logo.png`,
     logoImageAltText: `The Staffing Strategies logo, a hollow golden circle surrounded by eight smaller dots.`,
     tagline: `What is Staffing Strategies and what can we do for you?`,
     copy: [
@@ -89,7 +89,7 @@ export const staffingStrategies = {
 }
 
 export const careStrategies = {
-    logoImage: `care.png`,
+    logoImage: `brookside-logo.png`,
     logoImageAltText: `Care Strategies Logo, a golden dot with hollow golden circles in around it in cardinal directions.`,
     tagline: `Brookside Care Strategies - A Familiar Place to Call Home`,
     copy: [
@@ -108,7 +108,7 @@ export const careStrategies = {
 }
 
 export const itStrategies = {
-    logoImage: `ITSlogo.jpg`,
+    logoImage: `ITSLogo.png`,
     logoImageAltText: `The Innovative Treatment Strategies logo, the letters I T S on a black square with rounded corners`,
     tagline: `Innovative Treatment Strategies`,
     copy: [

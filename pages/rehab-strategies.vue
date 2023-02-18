@@ -1,6 +1,21 @@
 <template>
   <div>
-    <PageHeading logo="rehab.jpg" tagline="A Trustworthy, Reliable Provider of Therapy Services Since 2007" altText="Rehab Strategies Logo"/>
+            <v-row class="mb-10">
+      <v-col
+        cols="12"
+        align-self="center"
+        justify-self="center"
+        class="d-flex flex-column align-center text-center"
+      >
+        <v-img
+          class="mb-5"
+          max-width="20rem"
+          :src="require('@/assets/images/rehab-logo.png')"
+          eager
+        />
+        <h1 class="text-h1">Rehab Strategies</h1>
+      </v-col>
+    </v-row>
     
     <CardWithSlot leftCols="7" rightCols="5">
       <template #left>
@@ -352,7 +367,6 @@
 <script>
 import {rehab} from './rehab-strategies.data'
 
-import PageHeading from '@/components/atoms/PageHeading.vue'
 import CardWithSlot from '@/components/atoms/CardWithSlot.vue'
 import HeadingAndTextBlock from '@/components/atoms/HeadingAndTextBlock.vue'
 import BulletedList from '@/components/atoms/BulletedList.vue'
@@ -362,7 +376,6 @@ import Footer from '@/components/atoms/Footer.vue'
 export default {
   name: "RehabStrategies",
   components: {
-    PageHeading,
     CardWithSlot,
     HeadingAndTextBlock,
     BulletedList,

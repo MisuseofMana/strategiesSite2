@@ -5,12 +5,13 @@
         cols="12"
         align-self="center"
         justify-self="center"
-        class="d-flex flex-column align-center"
+        class="d-flex flex-column align-center text-center"
       >
         <v-img
           class="mb-5"
-          max-width="25rem"
+          max-width="20rem"
           :src="require('@/assets/images/poplar-logo.png')"
+          eager
         />
         <h1 class="text-h1">Poplar Care Strategies</h1>
       </v-col>
@@ -32,6 +33,7 @@
         <v-img
             class="rounded-xl"
             :src="require('@/assets/images/poplar-entrance.jpg')"
+            eager
           />
       </template>
     </CardWithSlot>
@@ -41,6 +43,7 @@
         <v-img
             class="rounded-xl"
             :src="require('@/assets/images/poplar-building.jpg')"
+            eager
           />
       </template>
       <template #right>
@@ -60,6 +63,7 @@
             max-width="200px"
             :src="require('@/assets/images/staff/susan.png')"
             class="mb-4 mr-5 rounded"
+            eager
           />
       </template>
       <template #middle>

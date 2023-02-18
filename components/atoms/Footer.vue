@@ -1,7 +1,7 @@
 <template>
 <v-card elevation="1" class="pa-10 mb-10" color="#fafafa">
-    <v-row class="d-flex align-center">
-        <v-col cols="12" md="3" class="my-5" :class="centerStyle">
+    <v-row class="d-flex align-start">
+        <v-col cols="12" md="3" :class="centerStyle">
             <slot name="left"></slot>
         </v-col>
         <v-col cols="12" md="3" :class="centerStyle">

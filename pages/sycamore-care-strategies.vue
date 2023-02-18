@@ -5,12 +5,13 @@
         cols="12"
         align-self="center"
         justify-self="center"
-        class="d-flex flex-column align-center"
+        class="d-flex flex-column align-center text-center"
       >
         <v-img
           class="mb-5"
-          max-width="25rem"
+          max-width="20rem"
           :src="require('@/assets/images/sycamore-logo.png')"
+          eager
         />
         <h1 class="text-h1">Sycamore Care Strategies</h1>
       </v-col>
@@ -30,6 +31,7 @@
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/sycamore-sign.jpg')"
+          eager
         />
         </v-col>
       </v-row>
@@ -41,6 +43,7 @@
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/sycamore-porch.jpg')"
+          eager
         />
         </v-col>
         <v-col md="5">
@@ -71,6 +74,7 @@
          <v-img
           class="rounded-xl"
           :src="require('@/assets/images/sycamore-lake.jpg')"
+          eager
         />  
         </v-col>
         <v-spacer/>
@@ -79,6 +83,7 @@
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/sycamore-building.jpg')"
+          eager
         />
         </v-col>
         <v-spacer/>
@@ -91,6 +96,7 @@
           max-width="200px"
           :src="require('@/assets/images/staff/brandi.png')"
           class="mb-4"
+          eager
         />
       </template>
     <template #middle>

@@ -6,7 +6,7 @@
         justify-self="center"
         class="d-flex flex-column align-center"
       >
-        <v-img max-width="25rem" :src="require(`@/assets/images/${logo}`)" :alt="altText"/>
+        <v-img :src="require(`@/assets/images/${logo}`)" :alt="altText"/>
         <h1 class="text-h2 text-center">
           {{tagline}}
         </h1>

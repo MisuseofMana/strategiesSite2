@@ -5,12 +5,13 @@
         cols="12"
         align-self="center"
         justify-self="center"
-        class="d-flex flex-column align-center"
+        class="d-flex flex-column align-center text-center"
       >
         <v-img
           class="mb-5"
-          max-width="25rem"
+          max-width="20rem"
           :src="require('@/assets/images/gentle-logo.png')"
+          eager
         />
         <h1 class="text-h1">GentleCare Strategies</h1>
       </v-col>
@@ -31,6 +32,7 @@
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/gentlecare-sign.jpg')"
+          eager
         />
         </v-col>
       </v-row>
@@ -42,6 +44,7 @@
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/gentlecare-building.jpg')"
+          eager
         />
         </v-col>
         <v-col md="5">
@@ -69,6 +72,7 @@
         <v-img
           class="rounded-xl"
           :src="require('@/assets/images/gentlecare-inside.jpg')"
+          eager
         />
         </v-col>
       </v-row>
@@ -80,6 +84,7 @@
           max-width="200px"
           :src="require('@/assets/images/staff/stacy.png')"
           class="mb-4"
+          eager
         />
       </template>
       <template #middle>

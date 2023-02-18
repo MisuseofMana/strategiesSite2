@@ -5,12 +5,13 @@
         cols="12"
         align-self="center"
         justify-self="center"
-        class="d-flex flex-column align-center"
+        class="d-flex flex-column align-center text-center"
       >
         <v-img
           class="mb-5"
-          max-width="25rem"
+          max-width="20rem"
           :src="require('@/assets/images/brookside-logo.png')"
+          eager
         />
         <h1 class="text-h1">Brookside Care Strategies</h1>
       </v-col>
@@ -28,6 +29,7 @@
             <v-img
           class="rounded-xl"
           :src="require('@/assets/images/brookside-sign.jpg')"
+          eager
         />
           </template>
         </CardWithSlot>
@@ -37,6 +39,7 @@
                <v-img
           class="rounded-xl"
           :src="require('@/assets/images/brookside-stone.jpg')"
+          eager
         />
          
           </template>

@@ -13,9 +13,7 @@
                 <li v-for="(item, index) in firstHalfOfList" :key="makeUniqueId(item.question, index)">
                     <strong>{{item.question}}</strong>
                     <ul>
-                        <li>
-                            {{item.answer}}
-                        </li>
+                        <li v-html="item.answer"></li>
                     </ul>
                 </li>
             </ul>
@@ -25,9 +23,7 @@
                 <li v-for="(item, index) in secondHalfOfList" :key="makeUniqueId(item.question, index)">
                     <strong>{{item.question}}</strong>
                     <ul>
-                        <li>
-                            {{item.answer}}
-                        </li>
+                        <li v-html="item.answer"></li>
                     </ul>
                 </li>
             </ul>
