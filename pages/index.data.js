@@ -49,17 +49,15 @@ export const strategies = {
 }
 
 export const rehabStrategies = {
-    logoImage: `rehab.jpg`,
+    logoImage: `rehab-logo.png`,
     logoImageAltText: `The Rehab Strategies logo, Three golden dots in a horizontal line.`,
     tagline: `What is Rehab Strategies and what can we do for you?`,
     copy: [
-        `
-        After working for similar rehabilitation companies, Ron Cram and Jamey Kleva launched Rehab Strategies in 2006. Because Ron and Jamey are therapists themselves with over 50 years of combined clinical experience in the rehabilitation industry, they will work hand-in-hand with your company on how best to construct the therapy department. If management or consulting is what your facility needs, Rehab Strategies can also provide expertise in those areas.
-        `,
-
-        `
-        Rehab Strategies will alleviate stress by internalizing decisions and solving problems for any provider housing a rehab department. Ron and Jamey will work in conjunction with the facility to build therapy teams that are highly motivated, efficient and produce cost-effective outcomes. Their model isn’t just for long term care facilities; it can be tailored to fit the needs of hospitals, outpatient centers, skilled nursing facilities, assisted and independent living centers.
-        `,
+        `Rehab Strategies is a family-owned, Indiana-based Physical, Occupational, and Speech Therapy Provider that is owned and operated by therapists. With a focus on older adults, our exceptional patient care and therapeutic outcomes are provided across the state of Indiana in numerous skilled nursing facilities, assisted livings, hospitals, and independent living facilities. Rehab Strategies provides full contract therapy services, consulting services, management services, wellness services, and a multitude of other options to better the lives of older adults, whether they are residents of a facility or not. With facilities all the way up to Muncie, down to Vincennes, and everywhere in between, Rehab Strategies has the infrastructure and therapist network to provide residents with the most exceptional patient care and customer service the state of Indiana has to offer!`, 
+        
+        `Rehab Strategies was founded in 2006 by physical therapist and CEO, Ron Cram. After gaining experience in various physical therapy services and working his way up in management and ownership, Ron decided to go out on his own and create Rehab Strategies. Ron’s goal was to provide high quality therapy services and patient care to facilities across the state of Indiana, with an emphasis on the older adult population. Rehab Strategies now provides full therapy services to numerous facilities across the state. As of 2018, Ron’s son Zach has been a physical therapist with Rehab Strategies. Following the career trajectory of his father, Zach has worked his way up from staff therapist to clinic manager, to regional manager, and eventually to Vice President of Operations. With Ron’s increased focus on expansion of facility ownership and operation with Care Strategies, Zach has assumed management and operations roles of Rehab Strategies, working hand-in-hand with Ron.`,  
+        
+        `Rehab Strategies prides themselves on being a family owned and operated company. This family atmosphere and mindset carries over to the way that Rehab Strategies treats their employees and their patients.`
     ],
     heroImage: 'teamwork.jpg',
     heroAlt: '',
@@ -89,9 +87,9 @@ export const staffingStrategies = {
 }
 
 export const careStrategies = {
-    logoImage: `brookside-logo.png`,
+    logoImage: `care-logo.jpg`,
     logoImageAltText: `Care Strategies Logo, a golden dot with hollow golden circles in around it in cardinal directions.`,
-    tagline: `Brookside Care Strategies - A Familiar Place to Call Home`,
+    tagline: `Care Close-by in Indiana`,
     copy: [
         `
         Do you need a facility for a loved one in Muncie, Indiana? Care Strategies can help.

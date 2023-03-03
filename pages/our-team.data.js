@@ -44,15 +44,11 @@ export const team = [
         ]
     },
     {
-        name: 'Lauren Cram, Staffing Coordinator',
-        image: 'lauren',
-        rank: '@ Care Strategies, Staffing Strategies',
+        name: 'Darian Cram, OTR, Staffing Coordinator',
+        image: 'darian',
+        rank: '@ Staffing Strategies',
         paragraphs: [
-                `
-    After 25 years as a high school English teacher, Lauren took the skills honed in the classroom and adapted them to a new career in staffing physical, occupational, and speech therapists and nurses. `,
-    `Staffing Strategies has been her professional home for the last ten years. Lauren works as the liaison between facilities needing staffing coverage and therapists and nurses needing placement hours. From the initial contact with a potential staff member to confirming shifts with both the facility and staffer, Lauren oversees all aspects of the daily schedule.`,
-    `She works tirelessly to anticipate potential problems before they occur to ensure seamless coverage between the facility and agency staffer. Lauren would love to help your facility when coverage is needed. Contact her today.
-    `
+            `Bio Coming Soon`
         ]
     },
     {
@@ -95,9 +91,9 @@ export const team = [
         ]
     },
     {
-        name: 'Derrek Keith, Administrator',
+        name: 'Derrek Keith, HFA',
         image: 'derrek',
-        rank: '@ Care Strategies',
+        rank: '@ Brookside Care Strategies',
         paragraphs: [
             `Derek has worked in the healthcare industry for over 20 years. Starting as a paramedic, Derek went on to become a CNA, QMA, and finally landing at his current position as a Health Facility Administrator. Derek joined Care Strategies as the HFA at Cardinal Care Strategies but has recently made the transition just down the road to be the HFA at Brookside Care Strategies. 
             `,
@@ -106,7 +102,7 @@ export const team = [
     },
     {
         name: 'Zach Cram, DPT Vice President of Operations',
-        image: 'mock',
+        image: 'zach',
         rank: '@ Rehab Strategies',
         paragraphs: [
             `As a high school student, Zach began a journey towards a career in physical therapy by working as a rehab technician at multiple facilities across Indianapolis. Zach developed a strong passion for the field of physical therapy and continued to gain experience in the clinic as a rehab technician over the course of his high school and undergraduate studies.`,
@@ -137,9 +133,9 @@ export const team = [
         mock: false
     },
     {
-        name: 'Marilyn Alberson',
+        name: 'Marilyn Alberson, HFA',
         image: 'mock',
-        rank: '',
+        rank: '@ Cardinal Care Strategies',
         paragraphs: [
             `Marilyn resides on an Indiana family farm in Randolph County with her husband. She has two married sons, nine grandchildren and seven great grandchildren. Two of her grandsons are currently serving in the military.`,
             `She is honored to be the Administrator at Cardinal Care Strategies in Muncie, IN and has been in health care for over 20 years in various arenas. She graduated high school from Jay County and received her degree from Phoenix University. She has achieved Bronze Quality Award while in a facility and in that same facility received a deficiency free annual state survey.`,

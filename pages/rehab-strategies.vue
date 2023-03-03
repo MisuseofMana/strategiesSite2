@@ -136,6 +136,18 @@
       </template>
       <template #right>
         <BulletedList headingOne="Work for Rehab Strategies" headingTwo="We offer:" :listItems="rehab.offerList"/>
+        <h2 class="text-h2">Partner with Rehab Strategies</h2>
+        <p class="text-body-1">Want to learn more? Email us now:
+        </p>
+        <h3 class="text-h3 mb-3">
+          <a color="primary" href="mailto: ZCram@RehabStrategies.net">ZCram@RehabStrategies.net</a>
+        </h3>
+          <p>
+ or call our line </p>
+          <h3 class="text-h3 mt-n2 mb-3">(317) 412-6059</h3>
+  <p>
+  We have a unique pay structure that gives the therapist autonomy and makes them an active partner in their own productivity.
+  </p>
       </template>
     </CardWithSlot>
     
@@ -249,8 +261,7 @@
               <strong> When should I call Rehab Strategies? </strong>
               <ul>
                 <li>
-                  If your facility is struggling with lower census and losing
-                  patients to home health or other facilities.
+                  If your facility is struggling with lower census and losing patients to home health or other facilities. If your facility does not feel like the therapy department is providing the highest quality of patient care. If your patients are not achieving maximal outcomes.
                 </li>
               </ul>
             </li>
@@ -263,7 +274,7 @@
                 <li>
                   Rehab Strategies will guarantee your facility a profit. We
                   will free up your internal resources by assuming the
-                  recruiting, hiring, training, scheduling and oversite of your
+                  recruiting, hiring, training, scheduling and oversight of your
                   therapy team.
                 </li>
               </ul>
@@ -322,7 +333,7 @@
               <ul>
                 <li>
                   Residents can participate in one-on-one personal training as
-                  well as group classes. Our program includes Thai Chi, Pilates
+                  well as group classes. Our program includes Tai Chi, Pilates
                   and yoga as well as a wide variety of aerobic classes, and our
                   certified athletic trainers specialize in Parkinson’s classes
                   like The Climb, Rock Steady Boxing, Lee Silverman Voice
@@ -336,10 +347,7 @@
               </strong>
               <ul>
                 <li>
-                  Call 877-60-Rehab or email
-                  <a href="mailto: info@rehabstrategies.net"
-                    >info@rehabstrategies.net</a
-                  >
+                  Call Zach Cram at (317) 412-6059 or email at <a color="primary" href="mailto: ZCram@RehabStrategies.net">ZCram@RehabStrategies.net</a>
                 </li>
               </ul>
             </li>

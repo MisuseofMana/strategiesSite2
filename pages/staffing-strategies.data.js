@@ -31,7 +31,7 @@ export const staffing = {
         experience a lapse in quality care. Staffing Strategies is here for
         you; let us be the one you call to fill your scheduling void.`,
 
-        `Contact Staffing Strategies NOW (317) 412-6058`,
+        `Contact Staffing Strategies NOW (317) 383-7979`,
     ],
     heroList: [
         `Pre-Employment Background Screen`,
@@ -60,7 +60,7 @@ export const staffing = {
         {
             question: `How do I sign up for Staffing Strategies coverage?
             `,
-            answer: `Contact Lauren Cram at 317-412-6058 or lcram@staffingstrategies.net and she will provide your company with a contract. From there, your staffing supervisor will contact Lauren when openings occur.
+            answer: `Contact Darian Cram at (317) 383-7979 or dcram@staffingstrategies.net and she will provide your company with a contract. From there, your staffing supervisor will contact Darian when openings occur.
             `,
         },
         {
@@ -78,19 +78,19 @@ export const staffing = {
         {
             question: `What happens if a shift cannot be covered or a supplemental staff personnel must back out?
             `,
-            answer: `Regretfully, this does happen but not often. Lauren will contact your scheduler if she is unable to fill the open shift. She will also contact the staffing coordinator as early as possible if a supplemental staff member has an emergency and needs to cancel.
+            answer: `Regretfully, this does happen but not often. Darian will contact your scheduler if she is unable to fill the open shift. She will also contact the staffing coordinator as early as possible if a supplemental staff member has an emergency and needs to cancel.
             `,
         },
         {
             question: `Who do I contact if we need to cancel the therapist/nurse previously scheduled through Staffing Strategies?
             `,
-            answer: `Please contact Lauren Cram 317-412-6058 at least two hours before the canceled shift if the shift is for nursing. Please contact Lauren Cram 24 hours before if the shift was to be covered by a physical, occupational or speech therapist.
+            answer: `Please contact Darian Cram (317) 383-7979 at least two hours before the canceled shift if the shift is for nursing. Please contact Darian Cram 24 hours before if the shift was to be covered by a physical, occupational or speech therapist.
             `,
         },
         {
             question: `Can we schedule a Staffing Strategies’ therapist/nurse daily, weekly or monthly?
             `,
-            answer: `You can call any time there is a need and confirm a need for any length of time needed. Lauren has therapists/nurses on call to cover needs that may arise from a morning call-in opening to a lengthy maternity or disability leave.
+            answer: `You can call any time there is a need and confirm a need for any length of time needed. Darian has therapists/nurses on call to cover needs that may arise from a morning call-in opening to a lengthy maternity or disability leave.
             `,
         },
         {
