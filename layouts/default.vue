@@ -26,23 +26,46 @@
         class="mb-5 mx-2"
         eager
       />
-      <v-list class="px-2">
-        <v-list-item
-          v-for="(item, i) in items"
-          :key="i"
-          :class="[item.subItem ? 'ml-5' : '']"
-          active-class="sitePage-active"
-          :to="item.to"
-          router
-          exact
+      <v-list class="px-2" :opened="open">
+          <v-list-item active-class="sitePage-active" router exact to="/">
+            <v-list-item-icon>
+              <v-icon>mdi-newspaper-variant-outline</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="text-body-1">The Strategies</v-list-item-title>
+          </v-list-item>
+
+          <v-list-group
+          :value="true"
+          no-action
         >
-          <v-list-item-action>
-            <v-icon>{{ item.icon }}</v-icon>
-          </v-list-item-action>
-          <v-list-item-content>
-            <v-list-item-title class="text-body-1" v-text="item.title" />
-          </v-list-item-content>
-        </v-list-item>
+          <template #activator>
+              <v-list-item-icon>
+                <v-icon>mdi-plus-outline</v-icon>
+              </v-list-item-icon>
+              <v-list-item-title class="text-body-1">Care Strategies</v-list-item-title>
+          </template>
+
+          <v-list-item
+            v-for="(subItem, i) in careStrategiesSubItems"
+            :key="i+'careItem'"
+            active-class="sitePage-active"
+            router
+            exact
+            :to="subItem.to"
+          >
+          <v-list-item-icon>
+            <v-icon>{{ subItem.icon }}</v-icon>
+          </v-list-item-icon>
+            <v-list-item-title class="text-body-1">{{ subItem.title }}</v-list-item-title>
+          </v-list-item>
+        </v-list-group>
+
+        <v-list-item v-for="(item, i) in items" :key="i+'remainingItems'" active-class="sitePage-active" router exact :to="item.to">
+            <v-list-item-icon>
+              <v-icon>{{ item.icon }}</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="text-body-1">{{ item.title }}</v-list-item-title>
+          </v-list-item>
       </v-list>
     </v-navigation-drawer>
 
@@ -69,24 +92,10 @@ export default {
   name: 'DefaultPage',
   data() {
     return {
+      open: ['CareStrategies'],
       navigation: null,
       fixed: false,
-      items: [
-        {
-          icon: 'mdi-newspaper-variant-outline',
-          title: 'The Strategies',
-          to: '/',
-        },
-        {
-          icon: 'mdi-arm-flex',
-          title: 'Rehab Strategies',
-          to: '/rehab-strategies',
-        },
-        {
-          icon: 'mdi-account-group',
-          title: 'Staffing Strategies',
-          to: '/staffing-strategies',
-        },
+      careStrategiesSubItems: [
         {
           icon: 'mdi-bottle-tonic-plus-outline',
           title: 'Brookside Care Strategies',
@@ -112,6 +121,19 @@ export default {
           title: 'Cardinal Care Strategies',
           to: '/cardinal-care-strategies',
         },
+      ],
+      items: [
+        {
+          icon: 'mdi-arm-flex',
+          title: 'Rehab Strategies',
+          to: '/rehab-strategies',
+        },
+        {
+          icon: 'mdi-account-group',
+          title: 'Staffing Strategies',
+          to: '/staffing-strategies',
+        },
+        
         {
           icon: 'mdi-desktop-classic',
           title: 'Innovative Treatment Strategies',

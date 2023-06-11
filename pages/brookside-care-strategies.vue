@@ -16,7 +16,7 @@
         <h1 class="text-h1">Brookside Care Strategies</h1>
       </v-col>
     </v-row>
-        <CardWithSlot center leftCols="6" rightCols="6">
+        <CardWithSlot center left-cols="6" right-cols="6">
           <template #left>
              <h2 class="text-h2 mb-3">
             A Familiar Place To Call Home
@@ -34,7 +34,7 @@
           </template>
         </CardWithSlot>
         
-        <CardWithSlot center leftCols="6" rightCols="6">
+        <CardWithSlot center left-cols="6" right-cols="6">
           <template #left>
                <v-img
           class="rounded-xl"
@@ -53,7 +53,7 @@
           </template>
         </CardWithSlot>
        
-        <CardWithSlot leftCols="7" rightCols="5">
+        <CardWithSlot left-cols="7" right-cols="5">
           <template #left>
              <h2 class="text-h2 mb-5">Employment Opportunities</h2>
           <p class="text-body-1 mb-7">
@@ -79,7 +79,7 @@
           </template>
         </CardWithSlot>
         
-        <CardWithSlot leftCols="7" rightCols="5">
+        <CardWithSlot left-cols="7" right-cols="5">
           <template #left>
             <h2 class="text-h2 mb-5">Services</h2>
           <ul class="mb-7">
@@ -116,7 +116,6 @@
     <template #left>
       <h3 class="text-h3">Contact Us</h3>
       <h4 class="text-h4">Phone: (765) 289-1915</h4>
-      <h4 class="text-h4 mb-3">Toll Free: 1 (877) 60-REHAB</h4>
       <h4 class="text-h5">Derrek Keith</h4>
       <EmailLink email="dkeith@brooksidecs.net"/>
     </template>

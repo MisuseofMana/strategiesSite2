@@ -88,14 +88,13 @@
       </template>
       <template #middle>
         <h3 class="text-h3 mb-3">Contact our Building Administrator</h3>
-        <h4 class="text-h4">Marilyn Alberson</h4>
-        <EmailLink email="malberson@cardinalcarecs.net"/>
+        <h4 class="text-h4">Jamey Kleva</h4>
+        <EmailLink email="jkleva@thestrategies.net"/>
       </template>
       <template #right>
           <h3 class="text-h3 mb-3">Visit Us</h3>
           <h4 class="text-h4">4600 East Jackson St,</h4>
-          <h4 class="text-h4 mb-3">Indianapolis, IN 46241
-</h4>
+          <h4 class="text-h4 mb-3">Indianapolis, IN 46241</h4>
           <h4 class="text-h4">(765) 292-1416</h4>
       </template>
     </Footer>
