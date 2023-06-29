@@ -1,0 +1,5 @@
+.rounded {
+    border-radius: 9999px !important;
+    height: 10rem;
+    width: 10rem;
+  }

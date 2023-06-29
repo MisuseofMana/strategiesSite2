@@ -1,36 +1,40 @@
 export const team = [
     {
         name: 'Ron Cram, PT',
-        rank: 'CEO @ The Strategies',
+        rank: 'CEO',
+        where: 'The Strategies',
         image: 'ron',
         paragraphs: [
             `With over 30 years of hands-on clinical experience in the rehabilitation field, Ron has an extensive understanding of the healthcare continuum and has worked in virtually every type of rehab setting. He has practiced as a physical therapist in over 50 facilities spanning 5 states. Ron has focused the majority of his career and the entirety of his businesses on Long-Term Care treating the geriatric population. As the CEO and owner of Rehab Strategies, Staffing Strategies, Innovative Treatment Strategies, and Care Strategies, Ron understands not only the clinical components affecting a facility but has trained over 500 therapists regarding the legislative, regulatory, and reimbursement issues affecting healthcare as an industry.`
         ]
     },
     {
-        name: 'Jamey Kleva, Administrator',
-        rank: '@ Cardinal Care Strategies',
+        name: 'Jamey Kleva, HFA, PTA',
+        rank: 'President',
+        where: 'Cardinal Care Strategies',
         image: 'jamey',
         paragraphs: [
             `
-    With over 22 years of experience in the healthcare industry, Jamey’s clinical experience include- hospitals, long term acute hospitals, outpatient/inpatient settings, skilled rehab facilities and home health. Jamey has a degree in Physical Therapy and Health Care Management enabling her to blend clinical facility-based outcomes with administrative financial stability and growth. Her passion and specialty is to provide education and strategic solutions so therapist and facility administration can operate cohesively as one unit. Her continued effort to stay abreast of the ever changing healthcare continuum allows her the opportunity to keep facilities innovative while maximizing reimbursements and increase patient outcomes.
-    `
+            With over 22 years of experience in the healthcare industry, Jamey’s clinical experience include- hospitals, long term acute hospitals, outpatient/inpatient settings, skilled rehab facilities and home health. Jamey has a degree in Physical Therapy and Health Care Management enabling her to blend clinical facility-based outcomes with administrative financial stability and growth. Her passion and specialty is to provide education and strategic solutions so therapist and facility administration can operate cohesively as one unit. Her continued effort to stay abreast of the ever changing healthcare continuum allows her the opportunity to keep facilities innovative while maximizing reimbursements and increase patient outcomes.
+            `
         ]
     },
     {
-        name: 'Jeff Huffman, Chief Development Officer',
-        rank: '@ Care Strategies, Staffing Strategies, and Rehab Strategies',
+        name: 'Jeff Huffman',
+        rank: 'Vice President of Operations',
+        where: 'The Strategies',
         image: 'jeff',
         paragraphs: [
             `
-    With over 30 years of sales, marketing, government affairs and long term care experience, Jeff has an extensive understanding of the healthcare continuum and has focused on growth in organizations and operating improvements in multiple states. Jeff has focused his career on Long-Term Care and all aspects of Senior Housing. As the Chief Development Officer at The Strategies, Jeff understands growth, operation excellence, legislative, regulatory, and reimbursement issues affecting healthcare as an industry and works with our partners to improve performance, increase census and improve the bottom line.
-    `
+            With over 30 years of sales, marketing, government affairs and long term care experience, Jeff has an extensive understanding of the healthcare continuum and has focused on growth in organizations and operating improvements in multiple states. Jeff has focused his career on Long-Term Care and all aspects of Senior Housing. As the Chief Development Officer at The Strategies, Jeff understands growth, operation excellence, legislative, regulatory, and reimbursement issues affecting healthcare as an industry and works with our partners to improve performance, increase census and improve the bottom line.
+            `
         ]
     },
     {
         name: 'Lisa Weartz, SHRM-CP',
         image: 'lisa',
-        rank: 'Human Resources Director @ Care Strategies, Staffing Strategies, and Rehab Strategies',
+        rank: 'Vice President of Human Resources',
+        where: 'The Strategies',
         paragraphs: [
                 `
     As a former educator Lisa brings leadership and organizational skills to the team. She holds a B.A. in education from Northern Kentucky University as well as being a Certified HR Professional through the Society for Human Resource Management, SHRM®.
@@ -43,9 +47,10 @@ export const team = [
         ]
     },
     {
-        name: 'Tori Reed, Human Resource Generalist',
+        name: 'Tori Reed',
         image: 'tori',
-        rank: '@ The Strategies',
+        rank: 'Accounts Payable/Payroll Specialist',
+        where: 'The Strategies',
         paragraphs: [
             `Tori has spent her entire career working in Long-Term Care and can’t imagine doing anything else. Starting as a dietary aide in a nursing home in 2014, her passion for Long Term Care residents kept her on a career path that led to a promotion to Receptionist, then Human Resources Manager and ultimately, working for a management company processing payroll and managing the accounts payable for several Long-Term Care facilities.`,
             ` Tori has a BA in Communication Studies and uses her skills in human relations to better understand employees and how our company can best service their needs. Tori hopes to use her positive attitude and drive for consistency to encourage others to work hard and succeed. In her personal time, Tori likes to play at the park with her daughter, crochet obnoxiously big blankets, and explore new and unusual restaurants.`
@@ -54,7 +59,8 @@ export const team = [
     {
         name: 'Devon Cram, MBA, HFA',
         image: 'devon',
-        rank: '@ Care Strategies',
+        rank: 'Director of Finance',
+        where: 'Care Strategies',
         paragraphs: [
             `With a Master’s in Business Administration and a Health Facility Administrator license, Devon Cram brings a unique background of business education and long term care management to Care Strategies. Devon received his undergraduate degree from the University of Kentucky and went on to earn his MBA from the University of Indianapolis in 2020.`,
 
@@ -62,19 +68,29 @@ export const team = [
         ]
     },
     {
-        name: 'Derrek Keith, HFA',
-        image: 'derrek',
-        rank: '@ Brookside Care Strategies',
+        name: 'Angie Bridges',
+        image: 'angie',
+        rank: 'Corporate Billing Specialist',
+        where: 'Care Strategies',
         paragraphs: [
-            `Derek has worked in the healthcare industry for over 20 years. Starting as a paramedic, Derek went on to become a CNA, QMA, and finally landing at his current position as a Health Facility Administrator. Derek joined Care Strategies as the HFA at Cardinal Care Strategies but has recently made the transition just down the road to be the HFA at Brookside Care Strategies. 
-            `,
-            `Derek has three college degrees, all related to the healthcare field. Derek is a single father to four daughters. In his free time, Derek loves to travel and attend ComiCon conventions, where he loves to release his inner “nerd.”`
-        ]
+            `Angie has worked in Health Care on and off since she was 17 years old. Her first job was at Westminster Village in Muncie as a receptionist. She's worked at the Roudebush VA Medical Center, Ascension St. Vincent of Anderson, Willowbend Living Center, and Bethany Cares Home Health Agency. Along her way, she's filled many rolls from Receptionist to Unit Secretary, Activity Director to Payroll Clerk, and many more. She loves the enviornment Care Strategies has created for residents and staff. `,
+            `Angie sets out to learn something new every day. Since that time, She handles Medicaid, Medicare, Private Pay, and Private Insurance billing for all The Strategies buildings. She enjoy assisting staff, residents, and residents’ families with anything at all. Angie graduated from Muncie Southside High School and went to International Business College in Indianapolis.`,
+        ],
+    },
+    {
+        name: 'Michelle Ramsey, RN',
+        image: 'mock',
+        rank: 'Corporate MDS Coordinator',
+        where: 'Care Strategies',
+        paragraphs: [
+            `Bio Coming Soon...`,
+        ],
     },
     {
         name: 'Karsen Rauch, HFA',
-        image: 'mock',
-        rank: '',
+        image: 'karsen',
+        rank: 'Administrator',
+        where: 'Cardinal Care Strategies',
         paragraphs: [
             `Karsen began her long-term care career 3 years ago when she got the opportunity to do an Administrator in Training program at Westminster Village North in Lawrence, IN. This was an extra special opportunity because her mom has been the Executive Director of Westminster for 25 years, therefore, Karsen has had the pleasure of growing up around the long term care setting since she was little. Taking after her mom and following in her career footsteps has always been a goal of hers.`,
             `Karsen graduated from the University of Iowa in 2019 and played soccer there all 4 years. She takes a lot of lessons learned from her 20+ year soccer career and translates that into her job every day. Working as an Administrator the last 2 years has been a challenge, but one she has learned a lot from. She is super excited to continue to grow and learn in the long-term care industry as a professional and person.`,
@@ -84,7 +100,8 @@ export const team = [
     {
         name: 'Stacy Blue, HFA',
         image: 'stacy',
-        rank: '@ GentleCare Strategies',
+        rank: 'Administrator',
+        where: 'GentleCare Strategies',
         paragraphs: [
             `With dual associate degrees in business management and business administration, and certifications in healthcare administration, Alzheimer’s Care, and social services, Stacy brings a highly qualified resume to GentleCare as its healthcare facility administrator. Stacy has been an HFA since 2003, and has been the HFA at GentleCare for two years.`,
             `Stacy loves that GentleCare is a building that is smaller in size, making it easier for him to build relationships with residents and their family members. Stacy has helped GentleCare be awarded as a 5-star facility for 15 consecutive years and he loves the impact the facility makes in the local community.`
@@ -93,7 +110,8 @@ export const team = [
     {
         name: 'Brandi Gladish, HFA',
         image: 'brandi',
-        rank: '@ Sycamore Care Strategies',
+        rank: 'Administrator',
+        where: 'Sycamore Care Strategies',
         paragraphs: [
             `Brandi began a successful career in healthcare in 2011, where she took a job as a marketing and admission coordinator for a behavioral facility. At this time, Brandi had a degree from Vincennes University in health information management, but she decided to go on to earn her social service designee certification.`,
 
@@ -103,26 +121,19 @@ export const team = [
         ]
     },
     {
-        name: 'Angie Bridges, Corporate Billing Specialist',
-        image: 'angie',
-        rank: '@ Care Strategies',
-        paragraphs: [
-            `Angie has worked in Health Care on and off since she was 17 years old. Her first job was at Westminster Village in Muncie as a receptionist. She's worked at the Roudebush VA Medical Center, Ascension St. Vincent of Anderson, Willowbend Living Center, and Bethany Cares Home Health Agency. Along her way, she's filled many rolls from Receptionist to Unit Secretary, Activity Director to Payroll Clerk, and many more. She loves the enviornment Care Strategies has created for residents and staff. `,
-            `Angie sets out to learn something new every day. Since that time, She handles Medicaid, Medicare, Private Pay, and Private Insurance billing for all The Strategies buildings. She enjoy assisting staff, residents, and residents’ families with anything at all. Angie graduated from Muncie Southside High School and went to International Business College in Indianapolis.`,
-        ],
-    },
-    {
         name: 'Susan Sluder, HFA',
         image: 'susan',
-        rank: '@ Poplar Care Strategies',
+        rank: 'Administrator',
+        where: 'Poplar Care Strategies',
         paragraphs: [
             `Susan has been in the healthcare field for 40 years working in a variety of facilities throughout Southwest Indiana. Susan has been a Licensed Health Facility Administrator for 26 years, where she has worked in both large and smaller facilities. As the Health Facility Administrator at Poplar Care Strategies, Susan’s biggest goal  is to ensure that the residents have a facility that they can call home and where they can feel like they are a part of one big family.`
         ]
     },
     {
-        name: 'Zach Cram, DPT Vice President of Operations',
+        name: 'Zach Cram, DPT',
         image: 'zach',
-        rank: '@ Rehab Strategies',
+        rank: 'Vice President of Operations',
+        where: 'Rehab Strategies',
         paragraphs: [
             `As a high school student, Zach began a journey towards a career in physical therapy by working as a rehab technician at multiple facilities across Indianapolis. Zach developed a strong passion for the field of physical therapy and continued to gain experience in the clinic as a rehab technician over the course of his high school and undergraduate studies.`,
 
@@ -132,9 +143,10 @@ export const team = [
         ]
     },
     {
-        name: 'Darian Cram, OTR, Staffing Coordinator',
+        name: 'Darian Cram, OTD, OTR',
         image: 'darian',
-        rank: '@ Staffing Strategies',
+        rank: 'Staffing Coodinator',
+        where: 'Staffing Strategies',
         paragraphs: [
             `As an occupational therapist Darian brings a unique perspective on quality patient care to our team. Darian received her Doctorate in occupational therapy from the University of Indianapolis in 2018 with a certificate in gerontology following her Bachelors in psychology from IUPUI. Darian has been an aide, a treating occupational therapist, and she now acts as our Staffing Coordinator for Staffing Strategies. She uses the knowledge and deep understanding of the skilled nursing facility environment and community to help develop creative staffing solutions.`, 
             `She is always willing to help out a therapy team in need or create plans to ensure optimal patient care. Darian also manages the social media for Care Strategies that showcases our wonderful facilities, engaging resident activities, and celebrates achievements.`

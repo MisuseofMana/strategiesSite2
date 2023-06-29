@@ -6,6 +6,7 @@
             <v-img v-if="image" eager class="rounded mb-4" :src="require(`@/assets/images/staff/${image}.png`)"/>
             <h2 class="text-h2">{{who}}</h2>
             <h3 class="text-h3">{{rank}}</h3>
+            <h4 class="text-h4">{{where}}</h4>
             <v-img v-if="badge" eager class="mt-3" max-width="90px" :src="require('@/assets/images/staff/shrm.png')"/>
         </v-col>
         <v-col cols="12" md="6">
@@ -36,6 +37,10 @@
             paragraphs: {
                 type: Array,
                 default: () => [],
+            },
+            where: {
+                type: String,
+                default: '',
             },
             badge: {
                 type: Boolean,

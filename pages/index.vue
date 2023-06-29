@@ -1,9 +1,9 @@
 <template>
   <div>
     <HomePageCard :contents="strategies"/>
+    <HomePageCard :contents="careStrategies"/>
     <HomePageCard :contents="rehabStrategies"/>
     <HomePageCard :contents="staffingStrategies"/>
-    <HomePageCard :contents="careStrategies"/>
     <HomePageCard halfSizeLogo :contents="itStrategies"/>
 
     <Footer>

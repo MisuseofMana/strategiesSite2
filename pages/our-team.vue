@@ -16,6 +16,7 @@
       :key="`info-card-${index}`"
       :image="item.image"
       :who="item.name"
+      :where="item.where"
       :rank="item.rank"
       :paragraphs="item.paragraphs"
       :mock="item.mock"

@@ -13,7 +13,7 @@
           :src="require('@/assets/images/rehab-logo.png')"
           eager
         />
-        <h1 class="text-h1">Rehab Strategies</h1>
+        <h1 class="text-h1 d-none">Rehab Strategies</h1>
       </v-col>
     </v-row>
     
@@ -358,15 +358,17 @@
 
     <Footer>    
       <template #left>
-        <h2 class="text-h2 mb-5">Call Us</h2>
-        <p class="text-body-1">Phone: (317) 887-1600</p>
-        <p class="text-body-1">Toll Free: 1 (877) 60-REHAB</p>
+          <v-img
+            :src="require('@/assets/images/staff/zach.png')"
+            class="mb-4 mr-5 rounded"
+            eager
+          />
       </template>
       <template #middle>
-        <h2 class="text-h2 mb-5">Email Us</h2>
-        <p class="text-body-1">
-        <a color="primary" href="mailto: info@rehabstrategies.net">info@rehabstrategies.net</a>
-       </p>
+        <h3 class="text-h3 mb-3">Contact</h3>
+        <h4 class="text-h4">Zach Cram, DPT</h4>
+        <h4 class="text-h4 mb-3">(317)412-6059</h4>
+        <EmailLink email="zcram@rehabstrategies.net"/>
       </template>
     </Footer>
   </div>
@@ -379,7 +381,7 @@ import CardWithSlot from '@/components/atoms/CardWithSlot.vue'
 import HeadingAndTextBlock from '@/components/atoms/HeadingAndTextBlock.vue'
 import BulletedList from '@/components/atoms/BulletedList.vue'
 import Footer from '@/components/atoms/Footer.vue'
-
+import EmailLink from '@/components/atoms/EmailLink.vue'
 
 export default {
   name: "RehabStrategies",
@@ -387,7 +389,8 @@ export default {
     CardWithSlot,
     HeadingAndTextBlock,
     BulletedList,
-    Footer
+    Footer,
+    EmailLink,
   },
   data() {
     return {

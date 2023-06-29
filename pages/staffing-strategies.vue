@@ -13,7 +13,7 @@
           :src="require('@/assets/images/staffing-logo.png')"
           eager
         />
-        <h1 class="text-h1">Staffing Strategies</h1>
+        <h1 class="text-h1 d-none">Staffing Strategies</h1>
       </v-col>
     </v-row>
 

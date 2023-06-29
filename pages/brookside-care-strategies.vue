@@ -113,31 +113,39 @@
         </CardWithSlot>
 
     <Footer>    
-    <template #left>
-      <h3 class="text-h3">Contact Us</h3>
-      <h4 class="text-h4">Phone: (765) 289-1915</h4>
-      <h4 class="text-h5">Derrek Keith</h4>
-      <EmailLink email="dkeith@brooksidecs.net"/>
-    </template>
-    <template #middle>
-        <h3 class="text-h3">Find Us</h3>
-        <h4 class="text-h4">505 N. Gavin St</h4>
-        <h4 class="text-h4">Muncie, IN 47303</h4>
-    </template>
+      <!-- <template #left>
+        <v-img
+          max-width="200px"
+          :src="require('@/assets/images/staff/mock.png')"
+          class="mb-4 rounded"
+          eager
+        />
+      </template> -->
+      <template #left>
+        <h3 class="text-h4">Contact Info Coming Soon</h3>
+        <h4 class="text-h4"></h4>
+        <h4 class="text-h5"></h4>
+        <EmailLink email=""/>
+      </template>
+      <template #right>
+          <h3 class="text-h3">Visit Us</h3>
+          <h4 class="text-h4">505 N. Gavin St</h4>
+          <h4 class="text-h4">Muncie, IN 47303</h4>
+      </template>
     </Footer>
   </div>
 </template>
 
 <script>
 import Footer from '@/components/atoms/Footer.vue'
-import EmailLink from '@/components/atoms/EmailLink.vue'
+// import EmailLink from '@/components/atoms/EmailLink.vue'
 import CardWithSlot from '@/components/atoms/CardWithSlot.vue'
 
 
 export default {
   components: {
     Footer,
-    EmailLink,
+    // EmailLink,
     CardWithSlot
   },
   computed: {

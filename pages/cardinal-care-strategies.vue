@@ -80,22 +80,21 @@
      <Footer>    
       <template #left>
         <v-img
-          max-width="200px"
-          :src="require('@/assets/images/staff/mock.png')"
-          class="mb-4 rounded"
+          :src="require('@/assets/images/staff/karsen.png')"
+          class="mb-4 mr-5 rounded"
           eager
         />
       </template>
       <template #middle>
-        <h3 class="text-h3 mb-3">Contact our Building Administrator</h3>
-        <h4 class="text-h4">Jamey Kleva</h4>
-        <EmailLink email="jkleva@thestrategies.net"/>
+        <h3 class="text-h3 mb-3">Contact our Administrator</h3>
+        <h4 class="text-h4">Karsen Rauch</h4>
+        <h4 class="text-h4 mb-3">(765) 292-1416</h4>
+        <!-- <EmailLink email="jkleva@thestrategies.net"/> -->
       </template>
       <template #right>
           <h3 class="text-h3 mb-3">Visit Us</h3>
           <h4 class="text-h4">4600 East Jackson St,</h4>
           <h4 class="text-h4 mb-3">Indianapolis, IN 46241</h4>
-          <h4 class="text-h4">(765) 292-1416</h4>
       </template>
     </Footer>
 
@@ -104,20 +103,12 @@
 
 <script>
 import Footer from '@/components/atoms/Footer.vue'
-import EmailLink from '@/components/atoms/EmailLink.vue'
+// import EmailLink from '@/components/atoms/EmailLink.vue'
 
 export default {
     components: {
         Footer,
-        EmailLink
+        // EmailLink
     }
 }
 </script>
-
-<style scoped>
-.rounded {
-  border-radius: 9999px !important;
-  height: 10rem;
-  width: 10rem;
-}
-</style>

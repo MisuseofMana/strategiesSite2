@@ -60,22 +60,21 @@
     <Footer>
     <template #left>
           <v-img
-            max-width="200px"
             :src="require('@/assets/images/staff/susan.png')"
             class="mb-4 mr-5 rounded"
             eager
           />
       </template>
       <template #middle>
-          <h3 class="text-h3 mb-3">Contact our Building Administrator</h3>
-            <h4 class="text-h4 mb-2">Susan Sluder</h4>
+          <h3 class="text-h3 mb-3">Contact our Administrator</h3>
+            <h4 class="text-h4">Susan Sluder</h4>
+            <h4 class="text-h4 mb-3">(812) 295-4433</h4>
             <EmailLink email="ssluder@thestrategies.net"/>
       </template>
       <template #right>
         <h3 class="text-h3 mb-3">Visit Us</h3>
         <h4 class="text-h4">313 Poplar St,</h4>
         <h4 class="text-h4 mb-3">Loogootee, IN 47553</h4>
-        <h4 class="text-h4">(812) 295-4433</h4>
       </template>
     </Footer>
   </div>

@@ -102,6 +102,11 @@ export default {
           to: '/brookside-care-strategies',
         },
         {
+          icon: 'mdi-bird',
+          title: 'Cardinal Care Strategies',
+          to: '/cardinal-care-strategies',
+        },
+        {
           icon: 'mdi-leaf',
           title: 'GentleCare Strategies',
           to: '/gentle-care-strategies',
@@ -115,11 +120,6 @@ export default {
           icon: 'mdi-head-heart',
           title: 'Poplar Care Strategies',
           to: '/poplar-care-strategies',
-        },
-        {
-          icon: 'mdi-bird',
-          title: 'Cardinal Care Strategies',
-          to: '/cardinal-care-strategies',
         },
       ],
       items: [

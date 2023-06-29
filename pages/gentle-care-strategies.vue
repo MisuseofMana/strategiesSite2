@@ -81,22 +81,21 @@
      <Footer>    
       <template #left>
         <v-img
-          max-width="200px"
           :src="require('@/assets/images/staff/stacy.png')"
-          class="mb-4"
+          class="mb-4 mr-5 rounded"
           eager
         />
       </template>
       <template #middle>
-        <h4 class="text-h4 mb-3">Contact our Building Administrator</h4>
-        <h4 class="text-h4 mb-2">Stacy Blue</h4>
+        <h3 class="text-h3 mb-3">Contact our Administrator</h3>
+        <h4 class="text-h4">Stacy Blue</h4>
+        <h4 class="text-h4 mb-3">(812) 882-8292</h4>
         <EmailLink email="sblue@gentlecarecs.net"/>
       </template>
       <template #right>
           <h3 class="text-h3 mb-3">Visit Us</h3>
           <h4 class="text-h4">1202 S 16th St</h4>
           <h4 class="text-h4 mb-3">Vincennes, IN 47591</h4>
-          <h4 class="text-h4">(812) 882-8292</h4>
       </template>
     </Footer>
 
