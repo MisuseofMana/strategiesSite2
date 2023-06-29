@@ -122,9 +122,8 @@
         />
       </template> -->
       <template #left>
-        <h3 class="text-h4">Contact Info Coming Soon</h3>
-        <h4 class="text-h4"></h4>
-        <h4 class="text-h5"></h4>
+        <h3 class="text-h3">Contact Us</h3>
+        <h4 class="text-h4">Phone: (765) 289-1915</h4>
         <EmailLink email=""/>
       </template>
       <template #right>
