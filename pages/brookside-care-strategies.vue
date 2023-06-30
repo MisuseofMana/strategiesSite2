@@ -121,7 +121,7 @@
           eager
         />
       </template> -->
-      <template #left>
+      <template #middle>
         <h3 class="text-h3">Contact Us</h3>
         <h4 class="text-h4">Phone: (765) 289-1915</h4>
         <EmailLink email=""/>
