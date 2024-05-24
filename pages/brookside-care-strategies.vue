@@ -52,32 +52,6 @@
             </p>
           </template>
         </CardWithSlot>
-       
-        <CardWithSlot left-cols="7" right-cols="5">
-          <template #left>
-             <h2 class="text-h2 mb-5">Employment Opportunities</h2>
-          <p class="text-body-1 mb-7">
-            Brookside Care Strategies hires well-qualified, energetic staff
-            members with a passion for long-term care. As staff members, you
-            will be expected to dedicate your talents to the health and
-            well-being of the residents we serve and the long-term, overall
-            success of the facility.
-          </p>
-          <h3 class="text-h3 mb-4">We Hire:</h3>
-          <ul class="mb-7">
-            <li>Nursing (RN's, CNA's, LPN's, QMA's)</li>
-            <li>Dietary</li>
-            <li>Housekeeping/Laundry</li>
-            <li>Maintenance</li>
-            <li>Social Services/Recreational Activities</li>
-          </ul>
-          </template>
-          <template #right>
-             <div class="d-flex flex-column align-center justify-center">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfl_q9D_AM_kgs7u-yl5RkeEL-yqrZQbEAQT9aqDz-6qw2y5A/viewform?embedded=true" width="100%" :height="iframeSize" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-</div>
-          </template>
-        </CardWithSlot>
         
         <CardWithSlot left-cols="7" right-cols="5">
           <template #left>
@@ -113,17 +87,9 @@
         </CardWithSlot>
 
     <Footer>    
-      <!-- <template #left>
-        <v-img
-          max-width="200px"
-          :src="require('@/assets/images/staff/mock.png')"
-          class="mb-4 rounded"
-          eager
-        />
-      </template> -->
-      <template #middle>
+      <template #left>
         <h3 class="text-h3">Contact Us</h3>
-        <h4 class="text-h4">Phone: (765) 289-1915</h4>
+        <h4 class="text-h4">(765) 289-1915</h4>
         <EmailLink email=""/>
       </template>
       <template #right>
@@ -137,20 +103,13 @@
 
 <script>
 import Footer from '@/components/atoms/Footer.vue'
-// import EmailLink from '@/components/atoms/EmailLink.vue'
 import CardWithSlot from '@/components/atoms/CardWithSlot.vue'
 
 
 export default {
   components: {
     Footer,
-    // EmailLink,
     CardWithSlot
   },
-  computed: {
-    iframeSize() {
-      return this.$vuetify.breakpoint.mobile ? '800px' : '600px'
-    }
-  }
 }
 </script>

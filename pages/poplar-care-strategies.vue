@@ -18,7 +18,7 @@
     </v-row>
 
 
-    <CardWithSlot center leftCols="6" rightCols="6">
+    <CardWithSlot center left-cols="6" right-cols="6">
       <template #left>
         <h2 class="text-h2">Long and Short Term Care</h2>
           <p class="text-body-1">
@@ -38,7 +38,7 @@
       </template>
     </CardWithSlot>
 
-    <CardWithSlot center leftCols="6" rightCols="6">
+    <CardWithSlot center left-cols="6" right-cols="6">
       <template #left>
         <v-img
             class="rounded-xl"
@@ -58,18 +58,9 @@
     </CardWithSlot>
 
     <Footer>
-    <template #left>
-          <v-img
-            :src="require('@/assets/images/staff/susan.png')"
-            class="mb-4 mr-5 rounded"
-            eager
-          />
-      </template>
-      <template #middle>
-          <h3 class="text-h3 mb-3">Contact our Administrator</h3>
-            <h4 class="text-h4">Susan Sluder</h4>
+      <template #left>
+          <h3 class="text-h3 mb-3">Contact Us</h3>
             <h4 class="text-h4 mb-3">(812) 295-4433</h4>
-            <EmailLink email="ssluder@thestrategies.net"/>
       </template>
       <template #right>
         <h3 class="text-h3 mb-3">Visit Us</h3>
@@ -82,13 +73,11 @@
 
 <script>
 import Footer from '@/components/atoms/Footer.vue'
-import EmailLink from '@/components/atoms/EmailLink.vue'
 import CardWithSlot from '@/components/atoms/CardWithSlot.vue'
 
 export default {
   components: {
     Footer,
-    EmailLink,
     CardWithSlot
   },
 }

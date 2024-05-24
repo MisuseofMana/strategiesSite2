@@ -21,113 +21,6 @@
       <template #left>
         <HeadingAndTextBlock heading="What Is Rehab Strategies?" uniqueId="rehab" :paragraphs="rehab.intro"/>
       </template>
-      <template #right>
-        <div class="d-flex flex-column justify-center align-center">
-          <h2 class="text-h2 mb-3">The Three Therapies</h2>
-          <p class="text-body-1">Click a therapy below for more info.</p>
-          <v-btn
-            color="primary"
-            class="white--text mb-5"
-            @click="physicalOverlay = !physicalOverlay"
-          >
-            Physical Therapy
-          </v-btn>
-
-          <v-overlay
-            class="d-flex align-center justify-center"
-            :value="physicalOverlay"
-            absolute
-            @click="physicalOverlay = !physicalOverlay"
-          >
-            <v-card
-              color="white black--text"
-              width="500"
-              height="300"
-              class="pa-10"
-            >
-              <h3 class="text-h3">Physical Therapy</h3>
-              <p class="text-body-1">
-                : therapy for the preservation, enhancement, or restoration of
-                movement and physical function impaired or threatened by
-                disease, injury, or disability that utilizes therapeutic
-                exercise, physical modalities (such as massage and
-                electrotherapy), assistive devices, and patient education and
-                training — called also physiotherapy
-              </p>
-            </v-card>
-          </v-overlay>
-
-          <v-btn
-            color="primary"
-            class="white--text mb-5"
-            @click="occupationalOverlay = !occupationalOverlay"
-          >
-            Occupational Therapy
-          </v-btn>
-
-          <v-overlay
-            class="d-flex align-center justify-center"
-            :value="occupationalOverlay"
-            absolute
-            @click="occupationalOverlay = !occupationalOverlay"
-          >
-            <v-card
-              color="white black--text"
-              width="500"
-              height="300"
-              class="pa-10"
-            >
-              <h3 class="text-h3">Occupational Therapy</h3>
-              <p class="text-body-1">
-                : therapy based on engagement in meaningful activities of daily
-                life (such as self-care skills, education, work, or social
-                interaction) especially to enable or encourage participation in
-                such activities despite impairments or limitations in physical
-                or mental functioning
-              </p>
-            </v-card>
-          </v-overlay>
-
-          <v-btn
-            color="primary"
-            class="white--text mb-10"
-            @click="speechOverlay = !speechOverlay"
-          >
-            Speech Therapy
-          </v-btn>
-
-          <v-overlay
-            class="d-flex align-center justify-center"
-            :value="speechOverlay"
-            absolute
-            @click="speechOverlay = !speechOverlay"
-          >
-            <v-card
-              color="white black--text"
-              width="500"
-              height="300"
-              class="pa-10"
-            >
-              <h3 class="text-h3">Speech Therapy</h3>
-              <p class="text-body-1">
-                : therapeutic treatment of impairments and disorders of speech,
-                voice, language, communication, and swallowing
-              </p>
-            </v-card>
-          </v-overlay>
-
-          <div
-            class="d-flex flex-column align-center justify-center text-center"
-          >
-            <h2 class="text-h2 mb-5">Download our Wellness Strategy PDF</h2>
-            <a href="/wellnessProgram.pdf" download>
-              <v-btn color="primary" class="white--text mb-5">
-                Download Our Wellness PDF
-              </v-btn>
-            </a>
-          </div>
-        </div>
-      </template>
     </CardWithSlot>
 
     <CardWithSlot leftCols="6" rightCols="6">
@@ -364,7 +257,7 @@
             eager
           />
       </template>
-      <template #middle>
+      <template #right>
         <h3 class="text-h3 mb-3">Contact</h3>
         <h4 class="text-h4">Zach Cram, DPT</h4>
         <h4 class="text-h4 mb-3">(317)412-6059</h4>

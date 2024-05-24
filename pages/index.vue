@@ -9,7 +9,7 @@
     <Footer>
       <template #left>
         <h2 class="text-h2 mb-5">Contact Us</h2>
-        <p class="text-body-1">317-887-1600</p>
+        <p class="text-body-1">(317) 887-1600</p>
         <p class="text-body-1">1-877-60-REHAB</p>
         <EmailLink email="info@thestrategies.net"/>
       </template>

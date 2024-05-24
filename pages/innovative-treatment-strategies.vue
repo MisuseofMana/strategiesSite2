@@ -203,7 +203,7 @@
         <p class="text-body-1">(317) 887-1600</p>
         <p class="text-body-1">Toll Free: 1 (877) 60-REHAB</p>
       </template>
-      <template #middle>
+      <template #right>
         <h2 class="text-h2 mb-5">Email Us</h2>
         <p class="text-body-1">
           <a color="primary" href="mailto: info@innovativetreatment.net">info@innovativetreatment.net</a>

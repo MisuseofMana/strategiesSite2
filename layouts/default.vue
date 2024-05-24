@@ -58,6 +58,7 @@
           </v-list-item-icon>
             <v-list-item-title class="text-body-1">{{ subItem.title }}</v-list-item-title>
           </v-list-item>
+          
         </v-list-group>
 
         <v-list-item v-for="(item, i) in items" :key="i+'remainingItems'" active-class="sitePage-active" router exact :to="item.to">
@@ -65,6 +66,13 @@
               <v-icon>{{ item.icon }}</v-icon>
             </v-list-item-icon>
             <v-list-item-title class="text-body-1">{{ item.title }}</v-list-item-title>
+          </v-list-item>
+
+          <v-list-item active-class="sitePage-active" target="_blank" href="https://thestrategiesstore.itemorder.com/shop/home/">
+            <v-list-item-icon>
+              <v-icon>mdi-shopping</v-icon>
+            </v-list-item-icon>
+            <v-list-item-title class="text-body-1">Strategies Store</v-list-item-title>
           </v-list-item>
       </v-list>
     </v-navigation-drawer>

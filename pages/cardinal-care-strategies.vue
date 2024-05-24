@@ -79,15 +79,7 @@
 
      <Footer>    
       <template #left>
-        <v-img
-          :src="require('@/assets/images/staff/karsen.png')"
-          class="mb-4 mr-5 rounded"
-          eager
-        />
-      </template>
-      <template #middle>
-        <h3 class="text-h3 mb-3">Contact our Administrator</h3>
-        <h4 class="text-h4">Karsen Rauch</h4>
+        <h3 class="text-h3 mb-3">Contact Us</h3>
         <h4 class="text-h4 mb-3">(765) 292-1416</h4>
         <!-- <EmailLink email="jkleva@thestrategies.net"/> -->
       </template>
@@ -103,12 +95,10 @@
 
 <script>
 import Footer from '@/components/atoms/Footer.vue'
-// import EmailLink from '@/components/atoms/EmailLink.vue'
 
 export default {
     components: {
         Footer,
-        // EmailLink
     }
 }
 </script>

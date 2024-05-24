@@ -80,17 +80,8 @@
 
      <Footer>    
       <template #left>
-        <v-img
-          :src="require('@/assets/images/staff/stacy.png')"
-          class="mb-4 mr-5 rounded"
-          eager
-        />
-      </template>
-      <template #middle>
-        <h3 class="text-h3 mb-3">Contact our Administrator</h3>
-        <h4 class="text-h4">Stacy Blue</h4>
+        <h3 class="text-h3 mb-3">Contact Us</h3>
         <h4 class="text-h4 mb-3">(812) 882-8292</h4>
-        <EmailLink email="sblue@gentlecarecs.net"/>
       </template>
       <template #right>
           <h3 class="text-h3 mb-3">Visit Us</h3>
@@ -104,12 +95,10 @@
 
 <script>
 import Footer from '@/components/atoms/Footer.vue'
-import EmailLink from '@/components/atoms/EmailLink.vue'
 
 export default {
     components: {
         Footer,
-        EmailLink
     }
 }
 </script>

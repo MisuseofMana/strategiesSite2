@@ -71,7 +71,7 @@
           eager
         />
       </template>
-      <template #middle>
+      <template #right>
         <h3 class="text-h3 mb-3">Contact our Staffing Coordinator</h3>
         <h4 class="text-h4 mb-2">Darian Cram</h4>
         <a href="mailto: dcram@staffingstrategies.net"

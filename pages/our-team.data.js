@@ -11,7 +11,7 @@ export const team = [
     {
         name: 'Jamey Kleva, HFA, PTA',
         rank: 'President',
-        where: 'Cardinal Care Strategies',
+        where: 'The Strategies',
         image: 'jamey',
         paragraphs: [
             `
@@ -78,36 +78,6 @@ export const team = [
         ],
     },
     {
-        name: 'Michelle Ramsey, RN',
-        image: 'mock',
-        rank: 'Corporate MDS Coordinator',
-        where: 'Care Strategies',
-        paragraphs: [
-            `Bio Coming Soon...`,
-        ],
-    },
-    {
-        name: 'Karsen Rauch, HFA',
-        image: 'karsen',
-        rank: 'Administrator',
-        where: 'Cardinal Care Strategies',
-        paragraphs: [
-            `Karsen began her long-term care career 3 years ago when she got the opportunity to do an Administrator in Training program at Westminster Village North in Lawrence, IN. This was an extra special opportunity because her mom has been the Executive Director of Westminster for 25 years, therefore, Karsen has had the pleasure of growing up around the long term care setting since she was little. Taking after her mom and following in her career footsteps has always been a goal of hers.`,
-            `Karsen graduated from the University of Iowa in 2019 and played soccer there all 4 years. She takes a lot of lessons learned from her 20+ year soccer career and translates that into her job every day. Working as an Administrator the last 2 years has been a challenge, but one she has learned a lot from. She is super excited to continue to grow and learn in the long-term care industry as a professional and person.`,
-            `Karsen still enjoys all things sports and is a huge Colts fan! She plays/coaches soccer and golfs regularly. Spending time with friends and family is very important to her. She lives in Noblesville, IN and is proud that she grew up in such a wonderful community.`,
-        ]
-    },
-    {
-        name: 'Stacy Blue, HFA',
-        image: 'stacy',
-        rank: 'Administrator',
-        where: 'GentleCare Strategies',
-        paragraphs: [
-            `With dual associate degrees in business management and business administration, and certifications in healthcare administration, Alzheimer’s Care, and social services, Stacy brings a highly qualified resume to GentleCare as its healthcare facility administrator. Stacy has been an HFA since 2003, and has been the HFA at GentleCare for two years.`,
-            `Stacy loves that GentleCare is a building that is smaller in size, making it easier for him to build relationships with residents and their family members. Stacy has helped GentleCare be awarded as a 5-star facility for 15 consecutive years and he loves the impact the facility makes in the local community.`
-        ]
-    },
-    {
         name: 'Brandi Gladish, HFA',
         image: 'brandi',
         rank: 'Administrator',
@@ -124,9 +94,9 @@ export const team = [
         name: 'Susan Sluder, HFA',
         image: 'susan',
         rank: 'Administrator',
-        where: 'Poplar Care Strategies',
+        where: 'Gentle Care Strategies',
         paragraphs: [
-            `Susan has been in the healthcare field for 40 years working in a variety of facilities throughout Southwest Indiana. Susan has been a Licensed Health Facility Administrator for 26 years, where she has worked in both large and smaller facilities. As the Health Facility Administrator at Poplar Care Strategies, Susan’s biggest goal  is to ensure that the residents have a facility that they can call home and where they can feel like they are a part of one big family.`
+            `Susan has been in the healthcare field for 40 years working in a variety of facilities throughout Southwest Indiana. Susan has been a Licensed Health Facility Administrator for 26 years, where she has worked in both large and smaller facilities. As the Health Facility Administrator at Gentle Care Strategies, Susan’s biggest goal is to ensure that the residents have a facility that they can call home and where they can feel like they are a part of one big family.`
         ]
     },
     {
