@@ -21,6 +21,18 @@
       <template #left>
         <HeadingAndTextBlock heading="What Is Rehab Strategies?" uniqueId="rehab" :paragraphs="rehab.intro"/>
       </template>
+      <template #right>
+        <div
+            class="d-flex flex-column align-center justify-center text-center"
+          >
+            <h2 class="text-h2 mb-5">Download our Wellness Strategy PDF</h2>
+            <a href="/wellnessProgram.pdf" download>
+              <v-btn color="primary" class="white--text mb-5">
+                Download Our Wellness PDF
+              </v-btn>
+            </a>
+          </div>
+      </template>
     </CardWithSlot>
 
     <CardWithSlot leftCols="6" rightCols="6">
