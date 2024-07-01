@@ -206,7 +206,7 @@
       <template #right>
         <h2 class="text-h2 mb-5">Email Us</h2>
         <p class="text-body-1">
-          <a color="primary" href="mailto: info@innovativetreatment.net">info@innovativetreatment.net</a>
+          <a class="white--text" href="mailto: info@innovativetreatment.net">info@innovativetreatment.net</a>
         </p>
       </template>
     </Footer>
@@ -233,7 +233,7 @@ export default {
       if(this.$vuetify.breakpoint.mobile) {
                 return '40%'
             }
-            return '10%'
+            return '20%'
     }
   },
 }

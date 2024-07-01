@@ -13,15 +13,15 @@
           :src="require('@/assets/images/cardinal-logo.png')"
           eager
         />
-        <h1 class="text-h1">Cardinal Care Strategies</h1>
+        <h1 class="text-h1 d-sr-only">Cardinal Care Strategies</h1>
       </v-col>
     </v-row>
 
     <v-card class="pa-10 mb-10">
       <v-row class="d-flex align-center justify-center">
         <v-col md="5">
-          <h2 class="text-h2">
-            Therapy and Care in Muncie
+          <h2 class="text-h2 mb-3">
+            Therapy & Care in Muncie
           </h2>
           <p class="text-body-1">
             From our spacious halls to our outdoor landscape, Cardinal Care Strategies seeks to offer the Muncie community a place they can call home. We offer Therapy, hands-on patient care, medication administration, nutritious meals, and interactive activities.

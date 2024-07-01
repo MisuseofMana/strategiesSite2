@@ -13,14 +13,14 @@
           :src="require('@/assets/images/poplar-logo.png')"
           eager
         />
-        <h1 class="text-h1">Poplar Care Strategies</h1>
+        <h1 class="text-h1 d-sr-only">Poplar Care Strategies</h1>
       </v-col>
     </v-row>
 
 
     <CardWithSlot center left-cols="6" right-cols="6">
       <template #left>
-        <h2 class="text-h2">Long and Short Term Care</h2>
+        <h2 class="text-h2 mb-3">Long and Short Term Care</h2>
           <p class="text-body-1">
             Poplar Care Strategies lives by the motto of “nourishing hearts and
             flourishing lives.” We offer a large range of amenities such as

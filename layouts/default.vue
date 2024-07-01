@@ -1,108 +1,138 @@
 <template>
-  <v-app dark>
-    <v-navigation-drawer
-      v-model="navigation"
-      color="rgb(238,238,238)"
-      app
-      width="30rem"
-      class="px-10 pt-10"
-    >
-
-      <v-btn
-          v-if="$vuetify.breakpoint.mobile"
-          elevation="1"
-          class="d-flex align-center justify-center mb-10 white--text pa-7"
-          color="primary"
-          @click="toggleNavigation"
-        >
-          <v-icon class="mr-2">{{menuIcon}}</v-icon>
-          <span v-if="navigation"> CLOSE MENU </span>
-          <span v-if="!navigation"> OPEN MENU </span>
-        </v-btn>
-
-      <v-img
-        :src="require('@/assets/images/strategies-logo.png')"
-        max-height="150"
-        class="mb-5 mx-2"
-        eager
-      />
-      <v-list class="px-2" :opened="open">
-          <v-list-item active-class="sitePage-active" router exact to="/">
-            <v-list-item-icon>
-              <v-icon>mdi-newspaper-variant-outline</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title class="text-body-1">The Strategies</v-list-item-title>
-          </v-list-item>
-
-          <v-list-group
-          :value="true"
-          no-action
-        >
-          <template #activator>
-              <v-list-item-icon>
-                <v-icon>mdi-plus-outline</v-icon>
-              </v-list-item-icon>
-              <v-list-item-title class="text-body-1">Care Strategies</v-list-item-title>
-          </template>
-
-          <v-list-item
-            v-for="(subItem, i) in careStrategiesSubItems"
-            :key="i+'careItem'"
-            active-class="sitePage-active"
-            router
-            exact
-            :to="subItem.to"
+    <v-app dark>
+      <v-navigation-drawer
+        v-model="drawer"
+        app
+        bottom
+        floating
+        color="primary"
+        width="450"
+      >
+      <div class="mx-5 mt-2 mb-5">
+        <h2 class="text-h2 white--text mb-2">Main</h2>
+        <v-btn 
+          to="/"
+          color="teal lighten-5"
+          width="100%"
+          class="mb-2"
+          x-large
           >
-          <v-list-item-icon>
-            <v-icon>{{ subItem.icon }}</v-icon>
-          </v-list-item-icon>
-            <v-list-item-title class="text-body-1">{{ subItem.title }}</v-list-item-title>
-          </v-list-item>
-          
-        </v-list-group>
-
-        <v-list-item v-for="(item, i) in items" :key="i+'remainingItems'" active-class="sitePage-active" router exact :to="item.to">
-            <v-list-item-icon>
-              <v-icon>{{ item.icon }}</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title class="text-body-1">{{ item.title }}</v-list-item-title>
-          </v-list-item>
-
-          <v-list-item active-class="sitePage-active" target="_blank" href="https://thestrategiesstore.itemorder.com/shop/home/">
-            <v-list-item-icon>
-              <v-icon>mdi-shopping</v-icon>
-            </v-list-item-icon>
-            <v-list-item-title class="text-body-1">Strategies Store</v-list-item-title>
-          </v-list-item>
-      </v-list>
-    </v-navigation-drawer>
-
-    <v-main>
-      <v-container :fluid="navigation" class="pa-10">
-        <v-btn
-          elevation="1"
-          class="d-flex align-center justify-center mb-10 white--text pa-7"
-          color="primary"
-          @click="toggleNavigation"
-        >
-          <v-icon class="mr-2">{{menuIcon}}</v-icon>
-          <span v-if="navigation"> CLOSE MENU </span>
-          <span v-if="!navigation"> OPEN MENU </span>
+          <v-icon class="mr-1">mdi-home</v-icon>
+          Home
+          </v-btn>
+        <v-btn 
+          href="https://thestrategiesstore.itemorder.com/shop/home/"
+          target="_blank"
+          color="teal lighten-5"
+          width="100%"
+          class="mb-2"
+          x-large
+          >
+          <v-icon class="mr-1">mdi-shopping</v-icon>
+          Strategies Store
+          </v-btn>
+      </div>  
+      <div class="mx-5 mt-2 mb-5">  
+        <h2 class="text-h2 white--text mb-2">Care Strategies</h2>
+        <v-btn 
+          v-for="item in careStrategiesSubItems"
+          :key="item.icon"
+          :to="item.to"
+          color="teal lighten-5"
+          width="100%"
+          class="mb-2"
+          x-large
+          >
+          <v-icon class="mr-1">{{ item.icon }}</v-icon>
+          {{ item.title }}
+          </v-btn>
+        </div>
+        <div class="mx-5 mt-2 mb-5">
+          <h2 class="text-h2 white--text mb-2">Info Pages</h2>
+        <v-btn 
+          v-for="item in items"
+          :key="item.icon"
+          :to="item.to"
+          color="teal lighten-5"
+          width="100%"
+          class="mb-2"
+          x-large
+          elevation="5"
+          >
+          <v-icon class="mr-1">{{ item.icon }}</v-icon>
+          {{ item.title }}
         </v-btn>
-        <Nuxt />
-      </v-container>
-    </v-main>
-  </v-app>
-</template>
-
-<script>
-export default {
-  name: 'DefaultPage',
-  data() {
-    return {
-      open: ['CareStrategies'],
-      navigation: null,
-      fixed: false,
+      </div>
+      </v-navigation-drawer>
+  
+      <v-app-bar prominent elevation="2" app width="100%">
+        <v-toolbar-title>
+        <v-img
+            :src="require('@/assets/images/strategies-logo.png')"
+            alt="The Strategies Logo"
+            eager
+            max-width="350"
+        />
+        <h1 class="d-sr-only">The Strategies</h1>
+        </v-toolbar-title>
+      </v-app-bar>
+  
+      <v-main>
+        <div class="pa-md-15 pa-10">
+          <v-btn
+        elevation="1"
+        class="d-flex align-center justify-center mb-10 white--text pa-7 d-lg-none"
+        color="primary"
+        @click="drawer = !drawer"
+      >
+        <v-icon class="mr-2">{{menuIcon}}</v-icon>
+        <span v-if="drawer"> CLOSE MENU </span>
+        <span v-if="!drawer"> OPEN MENU </span>
+      </v-btn>
+            <Nuxt/>
+            <v-btn
+        elevation="1"
+        class="d-flex align-center justify-center mb-10 white--text pa-7 d-lg-none"
+        color="primary"
+        @click="drawer = !drawer"
+      >
+        <v-icon class="mr-2">{{menuIcon}}</v-icon>
+        <span v-if="drawer"> CLOSE MENU </span>
+        <span v-if="!drawer"> OPEN MENU </span>
+      </v-btn>
+        </div>
+      </v-main>
+    </v-app>
+  </template>
+  
+  <script>
+    export default {
+      data() {
+        return {
+        drawer: null,
+        items: [
+        {
+          icon: 'mdi-arm-flex',
+          title: 'Rehab Strategies',
+          to: '/rehab-strategies',
+        },
+        {
+          icon: 'mdi-account-group',
+          title: 'Staffing Strategies',
+          to: '/staffing-strategies',
+        },
+        
+        {
+          icon: 'mdi-desktop-classic',
+          title: 'Innovative Treatment',
+          to: '/innovative-treatment-strategies',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Our Team',
+          to: '/our-team',
+        },
+      ],
       careStrategiesSubItems: [
         {
           icon: 'mdi-bottle-tonic-plus-outline',
@@ -130,53 +160,17 @@ export default {
           to: '/poplar-care-strategies',
         },
       ],
-      items: [
-        {
-          icon: 'mdi-arm-flex',
-          title: 'Rehab Strategies',
-          to: '/rehab-strategies',
-        },
-        {
-          icon: 'mdi-account-group',
-          title: 'Staffing Strategies',
-          to: '/staffing-strategies',
-        },
-        
-        {
-          icon: 'mdi-desktop-classic',
-          title: 'Innovative Treatment Strategies',
-          to: '/innovative-treatment-strategies',
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Our Team',
-          to: '/our-team',
-        },
-      ],
-    }
-  },
-  computed: {
-    menuIcon() {
-      if(this.navigation === false) {
-        return 'mdi-menu'
       }
-      else {
-        return 'mdi-close-thick'
-      }
+      },
+      computed: {
+          menuIcon() {
+            if(this.drawer === false || this.drawer === null) {
+              return 'mdi-menu'
+            }
+            else {
+              return 'mdi-close-thick'
+            }
+          }
+        },
     }
-  },
-  methods: {
-    toggleNavigation() {
-      this.navigation = !this.navigation
-    },
-  },
-  
-}
-</script>
-
-<style scoped>
-.sitePage-active {
-  color:white;
-  background: #008080;
-}
-</style>
+  </script>

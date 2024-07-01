@@ -11,9 +11,9 @@ const theme = {
     themes: {
       light: {
         // Vuetify Defaults
-        primary: '#008080',
-        anchor: '#008080',
-        secondary: '#407596',
+        primary: '#013768',
+        anchor: '#bf281a',
+        secondary: '#013768',
         accent: '#bf281a',
         error: '#9f0002',
         warning: '#c84801',

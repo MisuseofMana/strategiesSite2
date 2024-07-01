@@ -13,11 +13,11 @@
           :src="require('@/assets/images/staffing-logo.png')"
           eager
         />
-        <h1 class="text-h1 d-none">Staffing Strategies</h1>
+        <h1 class="text-h1 d-sr-only">Staffing Strategies</h1>
       </v-col>
     </v-row>
 
-    <CardWithSlot leftCols="5" rightCols="7">
+    <CardWithSlot left-cols="5" right-cols="7">
       <template #left>
         <HeadingAndTextBlock
           heading="What is Staffing Strategies and what can we do for you?"
@@ -55,26 +55,25 @@
 
         <BulletedList
           paragraph="Our partners contact us when they need to supplement staff. We develop close relationships with our client partners and tailor our services to their immediate needs. Consider us your staffing RESCUE SQUAD – we are here when you need us - for as little as two hours up to 13-week assignments. In addition to providing additional staff we provide RELIEF and peace of mind. As a Staffing Strategies client partner, you will have access to dependable, professional, and fully vetted staff. All nursing and therapy staff are subjected to the following:"
-          :listItems="staffing.heroList"
+          :list-items="staffing.heroList"
         />
       </template>
     </CardWithSlot>
 
-    <FaqCard heading="Staffing Strategies FAQ" :listItems="staffing.faq" />
+    <FaqCard heading="Staffing Strategies FAQ" :list-items="staffing.faq" />
 
     <Footer>
       <template #left>
         <v-img
           max-width="200px"
           :src="require('@/assets/images/staff/darian.png')"
-          class="mb-4"
           eager
         />
       </template>
-      <template #right>
+      <template #middle>
         <h3 class="text-h3 mb-3">Contact our Staffing Coordinator</h3>
         <h4 class="text-h4 mb-2">Darian Cram</h4>
-        <a href="mailto: dcram@staffingstrategies.net"
+        <a class="white--text" href="mailto: dcram@staffingstrategies.net"
           >dcram@staffingstrategies.net</a
         >
         <p class="text-body-1 mb-4">(317) 383-7979</p>

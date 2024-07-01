@@ -13,7 +13,7 @@
           :src="require('@/assets/images/brookside-logo.png')"
           eager
         />
-        <h1 class="text-h1">Brookside Care Strategies</h1>
+        <h1 class="text-h1 d-sr-only">Brookside Care Strategies</h1>
       </v-col>
     </v-row>
         <CardWithSlot center left-cols="6" right-cols="6">
@@ -56,7 +56,7 @@
         <CardWithSlot left-cols="7" right-cols="5">
           <template #left>
             <h2 class="text-h2 mb-5">Services</h2>
-          <ul class="mb-7">
+          <ul class="mb-7 text-body-1">
             <li>Comprehensive Care for Clinically Complex Residents</li>
             <li>Well-Round Clinical Assessments</li>
             <li>Psychiatric Management</li>
@@ -75,7 +75,7 @@
           </template>
           <template #right>
             <h2 class="text-h2 mb-5">Technology</h2>
-          <ul class="mb-7">
+          <ul class="mb-7 text-body-1">
             <li>PointClickCare – Documentation Software</li>
             <li>PayCor -Payroll Monitoring Software</li>
             <li>
@@ -90,7 +90,6 @@
       <template #left>
         <h3 class="text-h3">Contact Us</h3>
         <h4 class="text-h4">(765) 289-1915</h4>
-        <EmailLink email=""/>
       </template>
       <template #right>
           <h3 class="text-h3">Visit Us</h3>

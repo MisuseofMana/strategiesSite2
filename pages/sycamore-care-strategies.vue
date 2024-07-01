@@ -13,7 +13,7 @@
           :src="require('@/assets/images/sycamore-logo.png')"
           eager
         />
-        <h1 class="text-h1">Sycamore Care Strategies</h1>
+        <h1 class="text-h1 d-sr-only">Sycamore Care Strategies</h1>
       </v-col>
     </v-row>
 
@@ -105,7 +105,7 @@
         <EmailLink email="bgladish@thestrategies.net"/>
     </template>
     <template #right>
-        <h4 class="text-h4 mb-3">Get in Touch</h4>
+        <h4 class="text-h3 mb-3">Get in Touch</h4>
           <h4 class="text-h4">12802 East US HWY 50</h4>
           <h4 class="text-h4 mb-3">Loogootee, IN 47553</h4>
     </template>

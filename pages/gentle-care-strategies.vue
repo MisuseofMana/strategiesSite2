@@ -13,7 +13,7 @@
           :src="require('@/assets/images/gentle-logo.png')"
           eager
         />
-        <h1 class="text-h1">GentleCare Strategies</h1>
+        <h1 class="text-h1 d-sr-only">GentleCare Strategies</h1>
       </v-col>
     </v-row>
 
@@ -21,7 +21,7 @@
       <v-row class="d-flex align-center justify-center">
         <v-col md="5">
           <p class="text-body-1 mb-3">&#9733;&#9733;&#9733;&#9733;&#9733;</p>
-          <h2 class="text-h2">
+          <h2 class="text-h2 mb-3">
             Five Star Care, Friendly Smiles
           </h2>
           <p class="text-body-1">
@@ -62,7 +62,7 @@
       <v-row class="d-flex align-center justify-center">
         <v-col md="5">
           <h2 class="text-h2 mb-3">
-           Clean and Consistent Care
+           Clean & Consistent Care
           </h2>
           <p class="text-body-1">
            When you walk into our building, our clean halls are accompanied by friendly smiles and caring staff. GentleCare of Vincennes offers a variety of care options, including Medicare skilled services, short-term rehabilitation, respite care, hospice care, and long-term care.

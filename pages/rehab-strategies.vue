@@ -13,13 +13,13 @@
           :src="require('@/assets/images/rehab-logo.png')"
           eager
         />
-        <h1 class="text-h1 d-none">Rehab Strategies</h1>
+        <h1 class="text-h1 d-sr-only">Rehab Strategies</h1>
       </v-col>
     </v-row>
     
-    <CardWithSlot leftCols="7" rightCols="5">
+    <CardWithSlot left-cols="7" right-cols="5">
       <template #left>
-        <HeadingAndTextBlock heading="What Is Rehab Strategies?" uniqueId="rehab" :paragraphs="rehab.intro"/>
+        <HeadingAndTextBlock heading="What Is Rehab Strategies?" unique-id="rehab" :paragraphs="rehab.intro"/>
       </template>
       <template #right>
         <div
@@ -35,12 +35,12 @@
       </template>
     </CardWithSlot>
 
-    <CardWithSlot leftCols="6" rightCols="6">
+    <CardWithSlot left-cols="6" right-cols="6">
       <template #left>
           <iframe width="100%" :height="iframeSize" src="https://docs.google.com/forms/d/e/1FAIpQLSdZkaiy4_YNZGOCkMfpX6gbKtI6MygBkozwLKvrJZ2bWSGskA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
       </template>
       <template #right>
-        <BulletedList headingOne="Work for Rehab Strategies" headingTwo="We offer:" :listItems="rehab.offerList"/>
+        <BulletedList heading-one="Work for Rehab Strategies" heading-two="We offer:" :list-items="rehab.offerList"/>
         <h2 class="text-h2">Partner with Rehab Strategies</h2>
         <p class="text-body-1">Want to learn more? Email us now:
         </p>
@@ -56,13 +56,13 @@
       </template>
     </CardWithSlot>
     
-    <CardWithSlot leftCols="12">
+    <CardWithSlot left-cols="12">
       <template #left>
-        <HeadingAndTextBlock heading="What Can Rehab Strategies Do For You?" uniqueId="what do" :paragraphs="rehab.spiel"/>
+        <HeadingAndTextBlock heading="What Can Rehab Strategies Do For You?" unique-id="what do" :paragraphs="rehab.spiel"/>
       </template>
     </CardWithSlot>
 
-    <CardWithSlot leftCols="6" rightCols="6">
+    <CardWithSlot left-cols="6" right-cols="6">
       <template #headingh>
         <h2 class="text-2 mb-5">Partner with Rehab Strategies</h2>
         <p class="text-body-1">
@@ -269,7 +269,7 @@
             eager
           />
       </template>
-      <template #right>
+      <template #middle>
         <h3 class="text-h3 mb-3">Contact</h3>
         <h4 class="text-h4">Zach Cram, DPT</h4>
         <h4 class="text-h4 mb-3">(317)412-6059</h4>
