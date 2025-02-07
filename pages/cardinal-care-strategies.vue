@@ -80,7 +80,7 @@
      <Footer>    
       <template #left>
         <h3 class="text-h3 mb-3">Contact Us</h3>
-        <h4 class="text-h4 mb-3">(765) 292-1416</h4>
+        <h4 class="text-h4 mb-3">(765) 282-1416</h4>
         <!-- <EmailLink email="jkleva@thestrategies.net"/> -->
       </template>
       <template #right>
